@@ -1,26 +1,31 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] float timeToDestroy;
+    [SerializeField] float timeToDestroy = 3f; // default 3 detik
     float timer;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
-        timer = Time.deltaTime;
-        if (timer >= timeToDestroy) Destroy(this.gameObject);
+        // waktu jalan terus
+        timer += Time.deltaTime;
+        if (timer >= timeToDestroy)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        Destroy(this.gameObject); 
+        // kalau kena enemy → hancurkan enemy
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collision.gameObject); // hancurkan enemy
+        }
+
+        // hancurkan peluru
+        Destroy(gameObject);
     }
 }
