@@ -21,9 +21,10 @@ public class EnemyMovement : MonoBehaviour
         {
             // bergerak ke arah target
             Vector3 direction = (target.position - transform.position).normalized;
-            transform.position += direction * speed * Time.deltaTime;
+            direction.y = 0; // jangan gerak di Y (tinggi)
+            direction.Normalize();
 
-            transform.LookAt(target); // opsional
+            transform.position += direction * speed * Time.deltaTime;
         }
         else
         {
