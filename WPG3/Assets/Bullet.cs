@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] float timeToDestroy = 3f; // default 3 detik
+    [SerializeField] float timeToDestroy = 2f;
+    [SerializeField] int damage = 10; // damage bullet
     float timer;
 
     void Update()
     {
-        // waktu jalan terus
         timer += Time.deltaTime;
         if (timer >= timeToDestroy)
         {
@@ -19,13 +19,15 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // kalau kena enemy → hancurkan enemy
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Destroy(collision.gameObject); // hancurkan enemy
+            Health enemyHealth = collision.gameObject.GetComponent<Health>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage); // kurangi nyawa enemy
+            }
         }
 
-        // hancurkan peluru
-        Destroy(gameObject);
+        Destroy(gameObject); // bullet hilang setelah kena
     }
 }
