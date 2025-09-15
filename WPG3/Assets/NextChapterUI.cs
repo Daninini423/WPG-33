@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 #if UNITY_EDITOR
@@ -28,15 +28,16 @@ public class NextChapterUI : MonoBehaviour
 
     private void Update()
     {
-        // kalau semua musuh sudah spawn dan mati ? tampilkan panel
+        EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
+
+        // kalau semua musuh sudah spawn dan mati → tampilkan panel
         if (EnemyManager.aliveEnemies <= 0 &&
-            FindObjectOfType<EnemySpawner>().spawnedCount >= FindObjectOfType<EnemySpawner>().maxSpawnCount)
+            spawner.GetTotalSpawnedCount() >= spawner.GetTotalMaxCount())
         {
             nextChapterPanel.SetActive(true);
             canGoNext = true;
         }
 
-        // cek input keyboard (misalnya tekan Space untuk lanjut)
         if (canGoNext && Input.GetKeyDown(KeyCode.Space))
         {
             NextScene();

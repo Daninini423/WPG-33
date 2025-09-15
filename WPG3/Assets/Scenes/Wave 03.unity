@@ -5640,12 +5640,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 2841198988160814033, guid: 9838518caa136f94387d9aa6077815db, type: 3}
+  enemyPrefab1: {fileID: 0}
+  enemyPrefab2: {fileID: 0}
   spawnPoints:
   - {fileID: 860371063}
   - {fileID: 869290154}
   - {fileID: 993614990}
   - {fileID: 887543985}
-  spawnInterval: 3
+  spawnInterval0: 2
+  maxSpawnCount0: 1
+  spawnInterval1: 0
+  maxSpawnCount1: 0
+  spawnInterval2: 0
+  maxSpawnCount2: 0
 --- !u!4 &2003758805
 Transform:
   m_ObjectHideFlags: 0

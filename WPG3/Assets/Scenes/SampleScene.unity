@@ -2734,14 +2734,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 2841198988160814033, guid: 9838518caa136f94387d9aa6077815db, type: 3}
+  enemyPrefab1: {fileID: 0}
+  enemyPrefab2: {fileID: 0}
   spawnPoints:
   - {fileID: 1070815467}
   - {fileID: 475037699}
   - {fileID: 2017346540}
   - {fileID: 1543341395}
-  spawnInterval: 3
-  maxSpawnCount: 40
-  spawnedCount: 0
+  spawnInterval0: 3
+  maxSpawnCount0: 40
+  spawnInterval1: 0
+  maxSpawnCount1: 0
+  spawnInterval2: 0
+  maxSpawnCount2: 0
 --- !u!1 &1514658830
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@
 public class EnemyMovement : MonoBehaviour
 {
     public Transform target;   // target tujuan (misalnya Base)
-    public float speed = 3f;   // kecepatan jalan musuh
+    public float speed = 0f;   // kecepatan jalan musuh
     public float stopDistance = 0.5f; // jarak berhenti dari target
     private Health baseHealth;
     private float attackTimer = 0f;
