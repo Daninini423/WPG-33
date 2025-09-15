@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class MovementStateManager : MonoBehaviour
 {
-    public float currentMoveSpeed;
+    public float currentMoveSpeed = 10;
     public float walkSpeed = 3, walkBackSpeed =2;
     public float runSpeed = 7, runBackSpeed = 5;
     public float crouchSpeed = 2, crouchBackSpeed = 2;
@@ -47,13 +47,23 @@ public class MovementStateManager : MonoBehaviour
             Debug.LogError("CharacterController component is missing!");
             enabled = false;
             return;
+
         }
 
         SwitchState(Idle);
+
+        // 🔽 Tambahan: kunci cursor di awal
+        LockCursor();
     }
 
     private void Update()
     {
+        // 🔽 Tambahan: kontrol cursor (Esc = tampil, klik kiri = sembunyi)
+        if (Input.GetKeyDown(KeyCode.Escape))
+            ShowCursor();
+
+        if (Input.GetMouseButtonDown(0))
+            LockCursor();
         // Calculate movement direction
         GetDirection();
 
@@ -118,6 +128,19 @@ public class MovementStateManager : MonoBehaviour
             new Vector3(transform.position.x, transform.position.y - groundYOffset, transform.position.z),
             controller != null ? controller.radius - 0.05f : 0.5f
         );
+    }
+
+    // 🔽 Tambahan fungsi untuk kontrol cursor
+    void LockCursor()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    void ShowCursor()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
 

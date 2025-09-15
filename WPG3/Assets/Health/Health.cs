@@ -34,8 +34,8 @@ public class Health : MonoBehaviour
 
     void Die()
     {
-        // Handle death (e.g., play animation, destroy object)
-        Debug.Log($"{gameObject.name} has died.");
+        EnemyManager.aliveEnemies--;
+
         Destroy(gameObject);
     }
 

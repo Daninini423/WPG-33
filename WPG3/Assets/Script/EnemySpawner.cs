@@ -9,11 +9,16 @@ public class EnemySpawner : MonoBehaviour
     public Transform[] spawnPoints; // tempat spawn (isi dengan spawn point yang sudah kamu buat di scene)
 
     [Header("Pengaturan Spawn")]
-    public float spawnInterval = 3f; // jeda waktu spawn musuh baru
+    public float spawnInterval = 3f;   // jeda waktu spawn musuh baru
+    public int maxSpawnCount = 10;     // batas maksimal musuh yang akan di-spawn
+    public int spawnedCount = 0;      // jumlah musuh yang sudah di-spawn
+
     private float timer;
 
     void Update()
     {
+        if (spawnedCount >= maxSpawnCount) return; // kalau sudah mencapai batas, berhenti spawn
+
         // hitung waktu
         timer += Time.deltaTime;
 
@@ -27,12 +32,13 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        if (spawnPoints.Length == 0) return; // kalau belum ada spawnpoint, keluar
+        if (spawnPoints.Length == 0) return;
 
-        // pilih spawn point random
         int randomIndex = Random.Range(0, spawnPoints.Length);
-
-        // buat musuh di posisi spawnpoint
         Instantiate(enemyPrefab, spawnPoints[randomIndex].position, Quaternion.identity);
+
+        spawnedCount++;
+        EnemyManager.aliveEnemies++; // tambah jumlah musuh hidup
     }
+
 }
