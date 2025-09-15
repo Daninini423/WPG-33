@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000021935, y: 0}
-  m_SizeDelta: {x: 422.0002, y: 128}
+  m_AnchoredPosition: {x: -0.000015259, y: 0}
+  m_SizeDelta: {x: 762.8755, y: 249.9645}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &61450213
 MonoBehaviour:
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.72955966, g: 0.2867765, b: 0.2867765, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: PRESS SPACE TO NEXT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -339,8 +339,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 79.17
+  m_fontSizeBase: 79.17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 427046963}
   - component: {fileID: 427046962}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: HealthUIBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -930,7 +930,7 @@ GameObject:
   - component: {fileID: 528509183}
   - component: {fileID: 528509182}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: NextWaveButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -949,7 +949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextChapterPanel: {fileID: 257578213}
-  nextSceneName: Wave 02
+  nextScene: {fileID: 102900000, guid: 3ddc4123781488a469bbbf62235fefde, type: 3}
 --- !u!114 &528509183
 MonoBehaviour:
   m_ObjectHideFlags: 0
