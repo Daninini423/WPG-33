@@ -5546,9 +5546,9 @@ MonoBehaviour:
   - {fileID: 396836194}
   spawnInterval0: 3
   maxSpawnCount0: 20
-  spawnInterval1: 5
+  spawnInterval1: 7
   maxSpawnCount1: 10
-  spawnInterval2: 5
+  spawnInterval2: 20
   maxSpawnCount2: 10
 --- !u!4 &1768619308
 Transform:
