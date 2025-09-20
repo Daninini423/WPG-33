@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wave 03.unity
     guid: 69c3387f931c57946a6f002b85213d9d
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: bb1a974abf0758447811d6c3f89d73f2
   m_configObjects: {}

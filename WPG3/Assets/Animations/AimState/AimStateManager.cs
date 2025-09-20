@@ -5,7 +5,7 @@ using Cinemachine;
 
 public class AimStateManager : MonoBehaviour
 {
-    AimBaseState currentState; 
+    public AimBaseState currentState; 
     public HipFireState Hip = new HipFireState(); 
     public AimState Aim = new AimState();
 
@@ -24,6 +24,7 @@ public class AimStateManager : MonoBehaviour
     [SerializeField] LayerMask aimMask;
 
     [SerializeField] Transform camFollowPos;
+    [SerializeField] private float shootDelayAfterAim = 0.15f;
 
     void Start() 
     {
@@ -47,8 +48,29 @@ public class AimStateManager : MonoBehaviour
 
         if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, aimMask))
             aimPos.position = Vector3.Lerp(aimPos.position, hit.point, aimSmoothSpeed * Time.deltaTime);
-    }
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (currentState is AimState)
+            {
+                anim.SetTrigger("Shoot");
+                Debug.Log("Bang! Menembak...");
+            }
+            else
+            {
+                StartCoroutine(AutoAimAndShoot());
+            }
+        }
+
+    }
+    private IEnumerator AutoAimAndShoot()
+    {
+        // masuk ke mode Aim dulu
+        SwitchState(Aim);
+        yield return new WaitForSeconds(shootDelayAfterAim);
+        anim.SetTrigger("Shoot");
+        Debug.Log("Bang! Menembak (auto Aim setelah delay)");
+    }
     private void LateUpdate() 
     {
         camFollowPos.localEulerAngles = new Vector3(yAxis, camFollowPos.localEulerAngles.y, camFollowPos.localEulerAngles.z); 
