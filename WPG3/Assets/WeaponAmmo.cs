@@ -19,25 +19,18 @@ public class WeaponAmmo : MonoBehaviour
 
     public void Reload()
     {
-        if (extraAmmo >= clipSize)
-        {
-            int ammoToReload = clipSize - currentAmmo;
-            extraAmmo -= ammoToReload;
-            currentAmmo += ammoToReload;
-        }
-        else if (extraAmmo > 0)
-        {
-            if (extraAmmo > 0)
-            {
-                int leftOverAmmo = extraAmmo + currentAmmo - clipSize;
-                extraAmmo = leftOverAmmo;
-                currentAmmo = clipSize;
-            }
-            else
-            {
-                currentAmmo += extraAmmo;
-                extraAmmo = 0;
-            }
-        }
+        // Hitung berapa peluru yang dibutuhkan untuk penuh
+        int ammoNeeded = clipSize - currentAmmo;
+
+        // Ambil peluru dari extraAmmo, tapi jangan sampai lebih dari extraAmmo
+        int ammoToReload = Mathf.Min(ammoNeeded, extraAmmo);
+
+        // Update nilai peluru
+        currentAmmo += ammoToReload;
+        extraAmmo -= ammoToReload;
+
+        // Pastikan extraAmmo tidak pernah negatif
+        extraAmmo = Mathf.Max(0, extraAmmo);
     }
+
 }
