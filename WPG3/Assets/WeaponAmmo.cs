@@ -19,18 +19,12 @@ public class WeaponAmmo : MonoBehaviour
 
     public void Reload()
     {
-        // Hitung berapa peluru yang dibutuhkan untuk penuh
         int ammoNeeded = clipSize - currentAmmo;
 
-        // Ambil peluru dari extraAmmo, tapi jangan sampai lebih dari extraAmmo
-        int ammoToReload = Mathf.Min(ammoNeeded, extraAmmo);
+        // isi penuh tanpa mengurangi extraAmmo
+        currentAmmo += ammoNeeded;
 
-        // Update nilai peluru
-        currentAmmo += ammoToReload;
-        extraAmmo -= ammoToReload;
-
-        // Pastikan extraAmmo tidak pernah negatif
-        extraAmmo = Mathf.Max(0, extraAmmo);
+        // kalau mau tetap tampil 120 terus, jangan ubah extraAmmo
     }
 
 }
