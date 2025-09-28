@@ -36,6 +36,12 @@ public class Health : MonoBehaviour
     {
         EnemyManager.aliveEnemies--;
 
+        if (CompareTag("Base"))
+        {   
+            FindObjectOfType<GameOverManager>().ShowGameOver();
+        }
+
+
         Destroy(gameObject);
     }
 

@@ -6,10 +6,12 @@ public class EnemyManager : MonoBehaviour
     public static int aliveEnemies = 0;
     public static Action<int> OnAliveEnemiesChanged;
 
-    public static void ChangeAlive(int delta)
+
+    public static void ResetManager()
     {
-        aliveEnemies += delta;
-        if (aliveEnemies < 0) aliveEnemies = 0;
+        aliveEnemies = 0;
         OnAliveEnemiesChanged?.Invoke(aliveEnemies);
     }
 }
+
+

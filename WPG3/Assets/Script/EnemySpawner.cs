@@ -29,6 +29,14 @@ public class EnemySpawner : MonoBehaviour
     private float timer2 = 0f;
     private void Start()
     {
+        // Reset jumlah yang sudah spawn
+        spawnedCount0 = 0;
+        spawnedCount1 = 0;
+        spawnedCount2 = 0;
+
+        // Reset counter enemy global
+        EnemyManager.ResetManager();
+
         // kasih random offset supaya musuh tidak spawn barengan
         timer0 = Random.Range(0.5f, spawnInterval0);
         timer1 = Random.Range(0.5f, spawnInterval1);
@@ -93,4 +101,5 @@ public class EnemySpawner : MonoBehaviour
     {
         return maxSpawnCount0 + maxSpawnCount1 + maxSpawnCount2;
     }
+
 }
