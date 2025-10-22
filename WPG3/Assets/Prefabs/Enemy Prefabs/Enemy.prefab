@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7dc65b3f9d43e647bd249f200ce3381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 6831892732270450695, guid: 92693e35266d0b94cbc1188d58f33e64, type: 3}
+  target: {fileID: 7738927250994099312, guid: 5bfc2dd8a5a9de84f82e6acbd273ad29, type: 3}
   speed: 2
   stopDistance: 0.5
   attackDamage: 10
