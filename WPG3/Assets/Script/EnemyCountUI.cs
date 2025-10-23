@@ -52,7 +52,7 @@ public class EnemyCountUI : MonoBehaviour
             if (remaining != lastIntValue)
             {
                 lastIntValue = remaining;
-                enemyText.text = "Enemies: " + remaining;
+                enemyText.text = "" + remaining;
             }
         }
         else // AliveAndMax
