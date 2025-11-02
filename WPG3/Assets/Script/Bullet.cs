@@ -19,15 +19,17 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        // Cek kalau kena musuh
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Health enemyHealth = collision.gameObject.GetComponent<Health>();
             if (enemyHealth != null)
             {
-                enemyHealth.TakeDamage(damage); // kurangi nyawa enemy
+                enemyHealth.TakeDamage(damage);
             }
         }
 
-        Destroy(gameObject); // bullet hilang setelah kena
+        // Hancurkan bullet setelah tabrakan (kena apa pun)
+        Destroy(gameObject);
     }
 }
