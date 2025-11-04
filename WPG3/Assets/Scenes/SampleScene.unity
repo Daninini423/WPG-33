@@ -4084,7 +4084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d0bca691fe0d0c43aece325df64226e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 2841198988160814033, guid: 4325ca0556b2ebd4c9df355af9b0a0d7, type: 3}
+  enemyPrefab: {fileID: 2841198988160814033, guid: 9838518caa136f94387d9aa6077815db, type: 3}
   enemyPrefab1: {fileID: 0}
   enemyPrefab2: {fileID: 0}
   spawnPoints:
@@ -4093,7 +4093,7 @@ MonoBehaviour:
   - {fileID: 2017346540}
   - {fileID: 1543341395}
   spawnInterval0: 4
-  maxSpawnCount0: 4
+  maxSpawnCount0: 20
   spawnInterval1: 0
   maxSpawnCount1: 0
   spawnInterval2: 0
@@ -25281,13 +25281,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4498307159882027790}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 3.1973715, y: 4.794066, z: -3.6889043}
+  m_LocalRotation: {x: -0.70388585, y: 0.06741453, z: -0.06741453, w: 0.70388585}
+  m_LocalPosition: {x: 1.14, y: 4.64, z: 0.5499998}
   m_LocalScale: {x: 19.999998, y: 19.999998, z: 19.999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 202659034996293000}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -100.942, y: -90, z: 90}
 --- !u!33 &8238496002255324320
 MeshFilter:
   m_ObjectHideFlags: 0
