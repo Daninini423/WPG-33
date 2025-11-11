@@ -3,7 +3,12 @@ guid: 05b5c7a214eb818429035f4a424004ab
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tekstur Ulat New
+    second: {fileID: 2800000, guid: 0dddc3db136c6264d9b82383a3e7a061, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -99,7 +104,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
