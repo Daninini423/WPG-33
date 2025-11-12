@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7dc65b3f9d43e647bd249f200ce3381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 5253829125912935133, guid: 32cede93413c0574daef19e343d7cb86, type: 3}
+  target: {fileID: 5687179418190509973, guid: 4ad398720508d764b8ca4a985a373e2e, type: 3}
   speed: 2
   stopDistance: 0.5
   attackDamage: 10
