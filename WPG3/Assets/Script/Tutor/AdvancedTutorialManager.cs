@@ -7,47 +7,45 @@ public class AdvanceTutorialManager : MonoBehaviour
     [System.Serializable]
     public class TutorialStep
     {
-        [TextArea(2, 5)] public string tutorialText; // teks yang ditampilkan
-        public GameObject uiToShow;                  // UI yang ingin ditampilkan
-        public GameObject uiToHide;                  // UI yang ingin disembunyikan
-        public bool hideTutorialPanel;               // apakah panel disembunyikan di step ini
+        [TextArea(2, 5)] public string tutorialText;   // teks tutorial
+        public GameObject uiToShow;                    // UI yang ingin ditampilkan
+        public GameObject uiToHide;                    // UI yang ingin disembunyikan
+        public Sprite characterExpression;             // ekspresi karakter di step ini
+        public bool hidePanel;                         // apakah panel disembunyikan?
+        public AudioClip stepSound;                    //  efek suara untuk step ini
     }
 
-    public GameObject tutorialPanel;        // Panel untuk teks tutorial
-    public TextMeshProUGUI tutorialText;    // Komponen teks
-    public Button nextButton;               // Tombol Next (selalu aktif)
-    public TutorialStep[] steps;            // Semua langkah tutorial
+    [Header("UI References")]
+    public Canvas tutorialCanvas;
+    public GameObject tutorialPanel;
+    public TextMeshProUGUI tutorialText;
+    public Button nextButton;
+    public Image characterImage; // referensi ke image karakter
 
+    [Header("Audio Settings")]
+    public AudioSource audioSource; //  tempat mainkan efek suara
+
+    public TutorialStep[] steps;
     private int currentStep = 0;
 
     void Start()
     {
         Time.timeScale = 1f;
 
-        // Sembunyikan semua UI di awal
         foreach (var step in steps)
         {
             if (step.uiToShow != null)
                 step.uiToShow.SetActive(false);
         }
 
-        // Tampilkan step pertama
         ShowStep(0);
-
-        // Pastikan tombol next selalu aktif
-        nextButton.gameObject.SetActive(true);
-
-        // Tambahkan event untuk tombol next
         nextButton.onClick.AddListener(NextStep);
     }
 
     void Update()
     {
-        // Tombol spasi juga bisa lanjut
         if (Input.GetKeyDown(KeyCode.Space))
-        {
             NextStep();
-        }
     }
 
     void ShowStep(int index)
@@ -60,19 +58,27 @@ public class AdvanceTutorialManager : MonoBehaviour
 
         var step = steps[index];
 
-        // Atur panel tutorial
-        tutorialPanel.SetActive(!step.hideTutorialPanel);
+        // tampilkan/hide panel
+        tutorialPanel.SetActive(!step.hidePanel);
 
-        // Update teks hanya kalau panel aktif
-        if (!step.hideTutorialPanel && !string.IsNullOrEmpty(step.tutorialText))
-        {
+        // ubah teks
+        if (!string.IsNullOrEmpty(step.tutorialText))
             tutorialText.text = step.tutorialText;
+
+        // ubah ekspresi karakter
+        if (characterImage != null && step.characterExpression != null)
+            characterImage.sprite = step.characterExpression;
+
+        // mainkan efek suara step ini 
+        if (audioSource != null && step.stepSound != null)
+        {
+            audioSource.pitch = Random.Range(0.95f, 1.05f); // biar terasa hidup
+            audioSource.PlayOneShot(step.stepSound);
         }
 
-        // Atur UI yang muncul / hilang
+        // atur UI tambahan
         if (step.uiToShow != null)
             step.uiToShow.SetActive(true);
-
         if (step.uiToHide != null)
             step.uiToHide.SetActive(false);
     }
@@ -80,21 +86,15 @@ public class AdvanceTutorialManager : MonoBehaviour
     void NextStep()
     {
         currentStep++;
-
         if (currentStep < steps.Length)
-        {
             ShowStep(currentStep);
-        }
         else
-        {
             EndTutorial();
-        }
     }
 
     void EndTutorial()
     {
-        tutorialPanel.SetActive(false);
-        nextButton.gameObject.SetActive(false); // Tombol baru hilang kalau tutorial selesai
+        tutorialCanvas.gameObject.SetActive(false);
         Debug.Log("Tutorial selesai!");
     }
 }
