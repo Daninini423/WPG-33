@@ -38,7 +38,7 @@ public class NextChapterUI : MonoBehaviour
             canGoNext = true;
         }
 
-        if (canGoNext && Input.GetKeyDown(KeyCode.Space))
+        if (canGoNext && Input.GetKeyDown(KeyCode.Mouse0))
         {
             NextScene();
         }
@@ -56,3 +56,4 @@ public class NextChapterUI : MonoBehaviour
         }
     }
 }
+

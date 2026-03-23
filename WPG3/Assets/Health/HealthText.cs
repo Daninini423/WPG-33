@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealthText : MonoBehaviour
 {
     [SerializeField] private Health health;   // Reference ke Health script
-    [SerializeField] private Text healthText; // Reference ke UI Text
-
+    [SerializeField] private TMP_Text healthText; // Reference ke UI Text
 
     void Start()
     {

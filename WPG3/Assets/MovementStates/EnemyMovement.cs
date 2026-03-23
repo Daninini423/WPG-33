@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Xml.Serialization;
+using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class EnemyMovement : MonoBehaviour
 {
     public Transform target;
@@ -10,11 +12,21 @@ public class EnemyMovement : MonoBehaviour
     public int attackDamage = 10;
     public float attackInterval = 1.5f;
     private bool isAttacking = false;
+    private Transform player;
     private Animator anim;
+    private bool playingFootsteps = false;
+    private AudioSource audioSource;
 
+    [Header("Footstep Settings")]
+    public float maxSoundDistance = 12f;
+    public float footstepInterval = 0.5f;
+    private float footstepTimer;
     void Start()
     {
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
     }
 
     void Update()
@@ -37,6 +49,8 @@ public class EnemyMovement : MonoBehaviour
             isAttacking = true;
             anim.SetTrigger("Attack");
         }
+
+        HandleFootsteps();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -45,7 +59,7 @@ public class EnemyMovement : MonoBehaviour
         {
             baseHealth = other.GetComponent<Health>();
 
-            // 💥 langsung aktifkan mode menyerang
+            //langsung aktifkan mode menyerang
             isAttacking = true;
             anim.SetTrigger("Attack");
         }
@@ -64,4 +78,21 @@ public class EnemyMovement : MonoBehaviour
             }
         }
     }
+    void HandleFootsteps()
+    {
+        if (player == null) return;
+
+        float dist = Vector3.Distance(transform.position, player.position);
+
+        // ❌ terlalu jauh → jangan play sound
+        if (dist > maxSoundDistance) return;
+
+        footstepTimer += Time.deltaTime;
+        if (footstepTimer >= footstepInterval)
+        {
+            SoundEffectManager.Play("Ulat");
+            footstepTimer = 0f;
+        }
+    }
 }
+

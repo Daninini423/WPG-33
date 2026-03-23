@@ -7,9 +7,11 @@ using UnityEngine;
 public class MovementStateManager : MonoBehaviour
 {
     public float currentMoveSpeed = 10;
-    public float walkSpeed = 3, walkBackSpeed =2;
+    public float walkSpeed = 3, walkBackSpeed = 2;
     public float runSpeed = 7, runBackSpeed = 5;
     public float crouchSpeed = 2, crouchBackSpeed = 2;
+    private bool playingFootsteps = false;
+    public float footstepSpeed = 0.5f;
 
     [HideInInspector] public Vector3 dir;
     [HideInInspector] public float hzInput, vInput;
@@ -34,8 +36,13 @@ public class MovementStateManager : MonoBehaviour
 
     [HideInInspector] public Animator anim;
 
-    
-    
+    public float walkStepInterval = 0.5f;
+    public float runStepInterval = 0.3f;
+    public float crouchStepInterval = 0.7f;
+
+    private float footstepTimer = 0f;
+
+
 
     void Start()
     {
@@ -52,18 +59,15 @@ public class MovementStateManager : MonoBehaviour
 
         SwitchState(Idle);
 
-        // 🔽 Tambahan: kunci cursor di awal
-        LockCursor();
+        HandleFootsteps();
+
     }
 
     private void Update()
     {
-        // 🔽 Tambahan: kontrol cursor (Esc = tampil, klik kiri = sembunyi)
-        if (Input.GetKeyDown(KeyCode.Escape))
-            ShowCursor();
 
-        if (Input.GetMouseButtonDown(0))
-            LockCursor();
+
+
         // Calculate movement direction
         GetDirection();
 
@@ -130,18 +134,30 @@ public class MovementStateManager : MonoBehaviour
         );
     }
 
-    // 🔽 Tambahan fungsi untuk kontrol cursor
-    void LockCursor()
+    void HandleFootsteps()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        bool isMoving = dir.magnitude > 0.1f && IsGrounded();
+
+        if (!isMoving)
+        {
+            footstepTimer = 0f;
+            return;
+        }
+
+        // Tentukan interval berdasarkan kecepatan/state
+        float interval = walkStepInterval;
+
+        if (currentMoveSpeed == runSpeed)
+            interval = runStepInterval;
+        else if (currentMoveSpeed == crouchSpeed)
+            interval = crouchStepInterval;
+
+        footstepTimer -= Time.deltaTime;
+
+        if (footstepTimer <= 0f)
+        {
+            SoundEffectManager.Play("Walk");
+            footstepTimer = interval;
+        }
     }
-
-    void ShowCursor()
-    {
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
-    }
-
-
 }
