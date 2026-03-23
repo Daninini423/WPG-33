@@ -10,7 +10,6 @@ public class MovementStateManager : MonoBehaviour
     public float walkSpeed = 3, walkBackSpeed = 2;
     public float runSpeed = 7, runBackSpeed = 5;
     public float crouchSpeed = 2, crouchBackSpeed = 2;
-    private bool playingFootsteps = false;
     public float footstepSpeed = 0.5f;
 
     [HideInInspector] public Vector3 dir;
@@ -40,7 +39,7 @@ public class MovementStateManager : MonoBehaviour
     public float runStepInterval = 0.3f;
     public float crouchStepInterval = 0.7f;
 
-    private float footstepTimer = 0f;
+    private float footstepTimer = 0.5f;
 
 
 
@@ -59,7 +58,7 @@ public class MovementStateManager : MonoBehaviour
 
         SwitchState(Idle);
 
-        HandleFootsteps();
+        
 
     }
 
@@ -82,6 +81,7 @@ public class MovementStateManager : MonoBehaviour
         controller.Move(finalMove * Time.deltaTime);
 
         currentState.UpdateState(this);
+        HandleFootsteps();
     }
 
     public void SwitchState(MovementBaseState state)
@@ -147,7 +147,7 @@ public class MovementStateManager : MonoBehaviour
         // Tentukan interval berdasarkan kecepatan/state
         float interval = walkStepInterval;
 
-        if (currentMoveSpeed == runSpeed)
+        if (Mathf.Approximately(currentMoveSpeed, runSpeed))
             interval = runStepInterval;
         else if (currentMoveSpeed == crouchSpeed)
             interval = crouchStepInterval;

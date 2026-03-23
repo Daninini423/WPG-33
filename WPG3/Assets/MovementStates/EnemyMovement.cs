@@ -14,7 +14,6 @@ public class EnemyMovement : MonoBehaviour
     private bool isAttacking = false;
     private Transform player;
     private Animator anim;
-    private bool playingFootsteps = false;
     private AudioSource audioSource;
 
     [Header("Footstep Settings")]
