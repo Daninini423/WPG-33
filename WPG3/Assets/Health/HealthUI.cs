@@ -1,27 +1,37 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealthUI : MonoBehaviour
 {
     [SerializeField] private Health health;
-    [SerializeField] private Slider healthSlider;
+    [SerializeField] private Image healthBarFill;
+    [SerializeField] private TextMeshProUGUI healthText;
 
     void Start()
     {
         if (health != null)
         {
-            // set slider awal
-            healthSlider.minValue = 0;
-            healthSlider.maxValue = health.maxHealth;
-            healthSlider.value = health.currentHealth;
+            health.OnHealthChanged += UpdateHealth;
 
-            // subscribe ke event health
-            health.OnHealthChanged += UpdateSlider;
+            // update awal
+            UpdateHealth(health.currentHealth, health.maxHealth);
         }
     }
 
-    private void UpdateSlider(int current, int max)
+    private void UpdateHealth(int current, int max)
     {
-        healthSlider.value = current;
+        if (healthBarFill == null) return;
+
+        float fill = (float)current / max;
+        healthBarFill.fillAmount = fill;
+    }
+
+    void OnDestroy()
+    {
+        if (health != null)
+        {
+            health.OnHealthChanged -= UpdateHealth;
+        }
     }
 }
