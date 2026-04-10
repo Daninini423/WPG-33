@@ -2040,9 +2040,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 528509182}
-        m_TargetAssemblyTypeName: NextChapterUI, Assembly-CSharp
-        m_MethodName: NextScene
+      - m_Target: {fileID: 2027574735}
+        m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
+        m_MethodName: ShowGameOver
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22827,9 +22827,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 528509182}
-        m_TargetAssemblyTypeName: NextChapterUI, Assembly-CSharp
-        m_MethodName: NextScene
+      - m_Target: {fileID: 2027574735}
+        m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
+        m_MethodName: ShowGameOver
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
