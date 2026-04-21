@@ -10780,8 +10780,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 195.6, y: 66.9}
-  m_SizeDelta: {x: 206.4808, y: 261.6823}
+  m_AnchoredPosition: {x: 188.65211, y: 37.05527}
+  m_SizeDelta: {x: 219.2292, y: 294.0875}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &555692746
 MonoBehaviour:
@@ -10803,7 +10803,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ca1544a8ca1679c4a81d7e5a3e7039ab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f10ba7b1b9164974b9fe94ac1336519a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21552,12 +21552,12 @@ GameObject:
   - component: {fileID: 1064357094}
   - component: {fileID: 1064357093}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Panel Percakapan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1064357092
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28891,35 +28891,34 @@ MonoBehaviour:
   audioSource: {fileID: 969282261}
   nextSceneName: SampleScene
   steps:
-  - tutorialText: Nyiram udh, bersihin jalan udh, kasih pupuk udh, perhatiin Pohon
-      Sihir Agung juga udh apa lagi ya
+  - tutorialText: "Semua sudah beres\u2026 apa lagi ya?"
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 619625161}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 1226480514}
     canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 21300000, guid: 817072bf754a9524e80840601d5a3efd, type: 3}
-    characterExpression2: {fileID: 21300000, guid: ca1544a8ca1679c4a81d7e5a3e7039ab, type: 3}
+    characterExpression1: {fileID: 21300000, guid: 2f71aa75a4b3d6e4e9d15b4bd5adac82, type: 3}
+    characterExpression2: {fileID: 21300000, guid: f10ba7b1b9164974b9fe94ac1336519a, type: 3}
     hidePanel: 0
     stepSound: {fileID: 0}
     uiToFront:
     - {fileID: 1019774043}
     - {fileID: 1064357091}
     - {fileID: 619625161}
-  - tutorialText: "istirahat aja deh, enak nya\u2026"
+  - tutorialText: "Istirahat dulu deh\u2026"
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: afcf92a41cc3b9648ab73cf5e82bbe1d, type: 3}
     characterExpression2: {fileID: 0}
     hidePanel: 0
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: istirahat..?
+  - tutorialText: Istiraha Katamu...?
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 1562914463}
@@ -28932,22 +28931,103 @@ MonoBehaviour:
     stepSound: {fileID: 0}
     uiToFront:
     - {fileID: 1226480514}
-    - {fileID: 1064357091}
     - {fileID: 555692744}
+    - {fileID: 1064357091}
     - {fileID: 1562914463}
   - tutorialText: "\u2026..?"
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
+    uiToShow1: {fileID: 619625161}
+    uiToHide1: {fileID: 1562914463}
+    canvasToShow: {fileID: 1226480514}
+    canvasToHide: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: fbab7f3a8767be54db5d1bcfbbdb2c3a, type: 3}
+    characterExpression2: {fileID: 0}
+    hidePanel: 0
+    stepSound: {fileID: 0}
+    uiToFront:
+    - {fileID: 1226480514}
+    - {fileID: 1019774043}
+    - {fileID: 1064357091}
+    - {fileID: 619625161}
+  - tutorialText: Kamu lagi? Ngapain ke sini?
+    uiToShow: {fileID: 0}
+    uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
+    canvasToHide: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: b12adad9b98ca7047a7080a186afaa0c, type: 3}
+    characterExpression2: {fileID: 0}
+    hidePanel: 0
+    stepSound: {fileID: 0}
+    uiToFront: []
+  - tutorialText: Aku tak akan berhenti sampai dapat kekuatan Pohon Agung!
+    uiToShow: {fileID: 0}
+    uiToHide: {fileID: 0}
+    uiToShow1: {fileID: 1562914463}
+    uiToHide1: {fileID: 619625161}
+    canvasToShow: {fileID: 1226480514}
+    canvasToHide: {fileID: 0}
+    characterExpression1: {fileID: 0}
+    characterExpression2: {fileID: 21300000, guid: ca1544a8ca1679c4a81d7e5a3e7039ab, type: 3}
+    hidePanel: 0
+    stepSound: {fileID: 0}
+    uiToFront:
+    - {fileID: 1226480514}
+    - {fileID: 555692744}
+    - {fileID: 1064357091}
+    - {fileID: 1562914463}
+  - tutorialText: Coba saja, kamu gak akan lolos dariku
+    uiToShow: {fileID: 0}
+    uiToHide: {fileID: 0}
+    uiToShow1: {fileID: 619625161}
+    uiToHide1: {fileID: 1562914463}
+    canvasToShow: {fileID: 1226480514}
+    canvasToHide: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: 817072bf754a9524e80840601d5a3efd, type: 3}
+    characterExpression2: {fileID: 0}
+    hidePanel: 0
+    stepSound: {fileID: 0}
+    uiToFront:
+    - {fileID: 1226480514}
+    - {fileID: 1019774043}
+    - {fileID: 1064357091}
+    - {fileID: 619625161}
+  - tutorialText: Pasukan hamaku, serang!
+    uiToShow: {fileID: 0}
+    uiToHide: {fileID: 0}
+    uiToShow1: {fileID: 1562914463}
+    uiToHide1: {fileID: 619625161}
+    canvasToShow: {fileID: 1226480514}
     canvasToHide: {fileID: 0}
     characterExpression1: {fileID: 0}
     characterExpression2: {fileID: 0}
     hidePanel: 0
     stepSound: {fileID: 0}
-    uiToFront: []
-  - tutorialText: kamu lagi? Ngapain kamu ke sini masih blm kapok?
+    uiToFront:
+    - {fileID: 1226480514}
+    - {fileID: 555692744}
+    - {fileID: 1064357091}
+    - {fileID: 1562914463}
+  - tutorialText: "(huh bakal lama nih\u2026) ayo sini! Jangan sentuh pohonku!"
+    uiToShow: {fileID: 0}
+    uiToHide: {fileID: 0}
+    uiToShow1: {fileID: 619625161}
+    uiToHide1: {fileID: 1562914463}
+    canvasToShow: {fileID: 1226480514}
+    canvasToHide: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: 2f71aa75a4b3d6e4e9d15b4bd5adac82, type: 3}
+    characterExpression2: {fileID: 21300000, guid: f10ba7b1b9164974b9fe94ac1336519a, type: 3}
+    hidePanel: 0
+    stepSound: {fileID: 0}
+    uiToFront:
+    - {fileID: 1226480514}
+    - {fileID: 1019774043}
+    - {fileID: 1064357091}
+    - {fileID: 619625161}
+  - tutorialText: Player, aku butuh bantuanmu! Penyihir Sufra menyerang. Tapi sebelum
+      itu ada yang perlu diperhatikan
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
@@ -28959,9 +29039,19 @@ MonoBehaviour:
     hidePanel: 0
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: Selama aku belum bisa mendapatkan sihir dari pohon Agung, aku gak
-      akan nyerah. Setelah menyerap inti pohon itu aku akan bertambah kuat mengusai
-      alam dan sihir hahahahahah
+  - tutorialText: Gerak pakai W,A,S,D
+    uiToShow: {fileID: 0}
+    uiToHide: {fileID: 0}
+    uiToShow1: {fileID: 0}
+    uiToHide1: {fileID: 0}
+    canvasToShow: {fileID: 0}
+    canvasToHide: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: afcf92a41cc3b9648ab73cf5e82bbe1d, type: 3}
+    characterExpression2: {fileID: 0}
+    hidePanel: 0
+    stepSound: {fileID: 0}
+    uiToFront: []
+  - tutorialText: Shift untuk lari
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
@@ -28973,7 +29063,7 @@ MonoBehaviour:
     hidePanel: 0
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: cih mungkin kamu bisa lawan para penjaga, tapi gak dengan ku
+  - tutorialText: Klik kiri untuk menembak, kanan untuk bidik
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
@@ -28985,95 +29075,19 @@ MonoBehaviour:
     hidePanel: 0
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: anak anak hama ku, serang! Jangan kasih ruang
+  - tutorialText: Ini info ammo, terbatas tapi tanpa peluru
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: 2f71aa75a4b3d6e4e9d15b4bd5adac82, type: 3}
     characterExpression2: {fileID: 0}
     hidePanel: 0
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: (huh kaya nya bakal lama nih) ok sini, tapi ingat JANGAN PERNAH
-      SENTUH POHON KU!
-    uiToShow: {fileID: 0}
-    uiToHide: {fileID: 0}
-    uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
-    canvasToShow: {fileID: 0}
-    canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
-    characterExpression2: {fileID: 0}
-    hidePanel: 0
-    stepSound: {fileID: 0}
-    uiToFront: []
-  - tutorialText: pemain aku butuh bantuan mu, penyihir Sufra sedang menyerang, ada
-      hal yang perlu kamu perhatikan
-    uiToShow: {fileID: 0}
-    uiToHide: {fileID: 0}
-    uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
-    canvasToShow: {fileID: 0}
-    canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
-    characterExpression2: {fileID: 0}
-    hidePanel: 0
-    stepSound: {fileID: 0}
-    uiToFront: []
-  - tutorialText: untuk bergerak tombol W,A,S,D. ya pasti kalian udh udh tahu
-    uiToShow: {fileID: 0}
-    uiToHide: {fileID: 0}
-    uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
-    canvasToShow: {fileID: 0}
-    canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
-    characterExpression2: {fileID: 0}
-    hidePanel: 0
-    stepSound: {fileID: 0}
-    uiToFront: []
-  - tutorialText: Button shift untuk RUN
-    uiToShow: {fileID: 0}
-    uiToHide: {fileID: 0}
-    uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
-    canvasToShow: {fileID: 0}
-    canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
-    characterExpression2: {fileID: 0}
-    hidePanel: 0
-    stepSound: {fileID: 0}
-    uiToFront: []
-  - tutorialText: untuk menembak mouse L dan untuk membidik Mouse R
-    uiToShow: {fileID: 0}
-    uiToHide: {fileID: 0}
-    uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
-    canvasToShow: {fileID: 0}
-    canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
-    characterExpression2: {fileID: 0}
-    hidePanel: 0
-    stepSound: {fileID: 0}
-    uiToFront: []
-  - tutorialText: pertama senjata, tabel ini adalah info ammo, jangan khawatir ini
-      pistol sihir tidak menggunakan peluru namun daya tembak sihir terbatas
-    uiToShow: {fileID: 0}
-    uiToHide: {fileID: 0}
-    uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
-    canvasToShow: {fileID: 0}
-    canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
-    characterExpression2: {fileID: 0}
-    hidePanel: 0
-    stepSound: {fileID: 0}
-    uiToFront: []
-  - tutorialText: Bisa kalian lihat jika di pojok kiri bawah terdapat jumlah ammo
-      kalian
+  - tutorialText: Cek ammo di kanan bawah
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
@@ -29097,7 +29111,7 @@ MonoBehaviour:
     hidePanel: 1
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: Jangan lupa tekan tombol R untuk reload
+  - tutorialText: Tekan R untuk reload
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 1941456000}
     uiToShow1: {fileID: 0}
@@ -29109,14 +29123,14 @@ MonoBehaviour:
     hidePanel: 0
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: 'Selanjutnya, pada bagian kanan atas terdapat jumlah hama '
+  - tutorialText: Kanan atas = jumlah hama
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: afcf92a41cc3b9648ab73cf5e82bbe1d, type: 3}
     characterExpression2: {fileID: 0}
     hidePanel: 0
     stepSound: {fileID: 0}
@@ -29133,8 +29147,7 @@ MonoBehaviour:
     hidePanel: 1
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: Terakhir pada bagian pojok kiri atas terdapat HP pohon agung ,
-      hama akan fokus pada pohon agung jadi hati hati lah jangan sampai lengah
+  - tutorialText: Kanan bawah = HP Pohon Agung, lindungi baik-baik
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 132986440}
     uiToShow1: {fileID: 0}
@@ -29148,50 +29161,36 @@ MonoBehaviour:
     uiToFront: []
   - tutorialText: 
     uiToShow: {fileID: 1010466768}
-    uiToHide: {fileID: 0}
+    uiToHide: {fileID: 1019774043}
     uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
+    uiToHide1: {fileID: 555692744}
     canvasToShow: {fileID: 0}
-    canvasToHide: {fileID: 0}
+    canvasToHide: {fileID: 1064357091}
     characterExpression1: {fileID: 0}
     characterExpression2: {fileID: 0}
     hidePanel: 1
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: Ingat kamu diberi beberapa menit untuk melindungi pohon agung,
-      jadi tetap fokus
-    uiToShow: {fileID: 0}
-    uiToHide: {fileID: 1010466768}
-    uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
-    canvasToShow: {fileID: 0}
-    canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
-    characterExpression2: {fileID: 0}
-    hidePanel: 0
-    stepSound: {fileID: 0}
-    uiToFront: []
-  - tutorialText: Ingat kamu diberi beberapa menit untuk melindungi pohon agung,
-      jadi tetap fokus
+  - tutorialText: Kamu punya waktu terbatas, tetap fokus
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: afcf92a41cc3b9648ab73cf5e82bbe1d, type: 3}
     characterExpression2: {fileID: 0}
     hidePanel: 0
     stepSound: {fileID: 0}
     uiToFront: []
-  - tutorialText: Ini saat nya, kita bergerak sekarang!
+  - tutorialText: Saatnya bergerak!
     uiToShow: {fileID: 0}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 0}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
-    characterExpression1: {fileID: 0}
+    characterExpression1: {fileID: 21300000, guid: afcf92a41cc3b9648ab73cf5e82bbe1d, type: 3}
     characterExpression2: {fileID: 0}
     hidePanel: 0
     stepSound: {fileID: 0}
