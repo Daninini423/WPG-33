@@ -10763,7 +10763,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &555692745
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20560,7 +20560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1019774044
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28892,10 +28892,10 @@ MonoBehaviour:
   nextSceneName: SampleScene
   steps:
   - tutorialText: "Semua sudah beres\u2026 apa lagi ya?"
-    uiToShow: {fileID: 0}
+    uiToShow: {fileID: 1019774043}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 619625161}
-    uiToHide1: {fileID: 0}
+    uiToHide1: {fileID: 555692744}
     canvasToShow: {fileID: 1226480514}
     canvasToHide: {fileID: 0}
     characterExpression1: {fileID: 21300000, guid: 2f71aa75a4b3d6e4e9d15b4bd5adac82, type: 3}
@@ -28919,7 +28919,7 @@ MonoBehaviour:
     stepSound: {fileID: 0}
     uiToFront: []
   - tutorialText: Istiraha Katamu...?
-    uiToShow: {fileID: 0}
+    uiToShow: {fileID: 555692744}
     uiToHide: {fileID: 0}
     uiToShow1: {fileID: 1562914463}
     uiToHide1: {fileID: 619625161}
@@ -29041,7 +29041,7 @@ MonoBehaviour:
     uiToFront: []
   - tutorialText: Gerak pakai W,A,S,D
     uiToShow: {fileID: 0}
-    uiToHide: {fileID: 0}
+    uiToHide: {fileID: 555692744}
     uiToShow1: {fileID: 0}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
@@ -29101,9 +29101,9 @@ MonoBehaviour:
     uiToFront: []
   - tutorialText: 
     uiToShow: {fileID: 1941456000}
-    uiToHide: {fileID: 0}
+    uiToHide: {fileID: 1019774043}
     uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
+    uiToHide1: {fileID: 619625161}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
     characterExpression1: {fileID: 0}
@@ -29112,9 +29112,9 @@ MonoBehaviour:
     stepSound: {fileID: 0}
     uiToFront: []
   - tutorialText: Tekan R untuk reload
-    uiToShow: {fileID: 0}
+    uiToShow: {fileID: 1019774043}
     uiToHide: {fileID: 1941456000}
-    uiToShow1: {fileID: 0}
+    uiToShow1: {fileID: 619625161}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
@@ -29137,9 +29137,9 @@ MonoBehaviour:
     uiToFront: []
   - tutorialText: 
     uiToShow: {fileID: 132986440}
-    uiToHide: {fileID: 0}
+    uiToHide: {fileID: 1019774043}
     uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 0}
+    uiToHide1: {fileID: 619625161}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
     characterExpression1: {fileID: 0}
@@ -29148,9 +29148,9 @@ MonoBehaviour:
     stepSound: {fileID: 0}
     uiToFront: []
   - tutorialText: Kanan bawah = HP Pohon Agung, lindungi baik-baik
-    uiToShow: {fileID: 0}
+    uiToShow: {fileID: 1019774043}
     uiToHide: {fileID: 132986440}
-    uiToShow1: {fileID: 0}
+    uiToShow1: {fileID: 619625161}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
@@ -29163,7 +29163,7 @@ MonoBehaviour:
     uiToShow: {fileID: 1010466768}
     uiToHide: {fileID: 1019774043}
     uiToShow1: {fileID: 0}
-    uiToHide1: {fileID: 555692744}
+    uiToHide1: {fileID: 619625161}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 1064357091}
     characterExpression1: {fileID: 0}
@@ -29172,9 +29172,9 @@ MonoBehaviour:
     stepSound: {fileID: 0}
     uiToFront: []
   - tutorialText: Kamu punya waktu terbatas, tetap fokus
-    uiToShow: {fileID: 0}
-    uiToHide: {fileID: 0}
-    uiToShow1: {fileID: 0}
+    uiToShow: {fileID: 1019774043}
+    uiToHide: {fileID: 1010466768}
+    uiToShow1: {fileID: 619625161}
     uiToHide1: {fileID: 0}
     canvasToShow: {fileID: 0}
     canvasToHide: {fileID: 0}
