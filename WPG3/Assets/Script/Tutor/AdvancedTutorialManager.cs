@@ -1,19 +1,33 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.SceneManagement; // <-- Tambahkan ini untuk pindah scene
+using UnityEngine.SceneManagement;
 
 public class AdvanceTutorialManager : MonoBehaviour
 {
     [System.Serializable]
     public class TutorialStep
     {
-        [TextArea(2, 5)] public string tutorialText; // teks tutorial
-        public GameObject uiToShow;                  // UI yang ingin ditampilkan
-        public GameObject uiToHide;                  // UI yang ingin disembunyikan
-        public Sprite characterExpression;           // ekspresi karakter di step ini
-        public bool hidePanel;                       // apakah panel disembunyikan?
-        public AudioClip stepSound;                  //  suara one-shot di step ini
+        [TextArea(2, 5)] public string tutorialText;
+
+        public GameObject uiToShow;
+        public GameObject uiToHide;
+
+        public GameObject uiToShow1;
+        public GameObject uiToHide1;
+
+        public GameObject canvasToShow;
+        public GameObject canvasToHide;
+
+        public Sprite characterExpression1;
+        public Sprite characterExpression2;
+
+        public bool hidePanel;
+
+        public AudioClip stepSound;
+
+        //  TAMBAHAN (INI YANG PENTING)
+        public GameObject[] uiToFront; // UI yang mau dipaling depan
     }
 
     [Header("UI References")]
@@ -21,11 +35,12 @@ public class AdvanceTutorialManager : MonoBehaviour
     public GameObject tutorialPanel;
     public TextMeshProUGUI tutorialText;
     public Button nextButton;
-    public Image characterImage;
-    public AudioSource audioSource;                 //  audio source untuk play one-shot
+    public Image characterImage1;
+    public Image characterImage2;
+    public AudioSource audioSource;
 
     [Header("Scene Settings")]
-    public string nextSceneName;                    // nama scene tujuan di akhir tutorial
+    public string nextSceneName;
 
     public TutorialStep[] steps;
     private int currentStep = 0;
@@ -34,10 +49,14 @@ public class AdvanceTutorialManager : MonoBehaviour
     {
         Time.timeScale = 1f;
 
+        // matikan semua UI awal
         foreach (var step in steps)
         {
             if (step.uiToShow != null)
                 step.uiToShow.SetActive(false);
+
+            if (step.uiToShow1 != null)
+                step.uiToShow1.SetActive(false);
         }
 
         ShowStep(0);
@@ -60,24 +79,51 @@ public class AdvanceTutorialManager : MonoBehaviour
 
         var step = steps[index];
 
-        // tampilkan / sembunyikan panel
+        // panel
         tutorialPanel.SetActive(!step.hidePanel);
 
-        // ubah teks
+        // text
         if (!string.IsNullOrEmpty(step.tutorialText))
             tutorialText.text = step.tutorialText;
 
-        // ubah ekspresi karakter
-        if (characterImage != null && step.characterExpression != null)
-            characterImage.sprite = step.characterExpression;
+        // character image
+        if (characterImage1 != null && step.characterExpression1 != null)
+            characterImage1.sprite = step.characterExpression1;
 
-        // atur UI tambahan
+        if (characterImage2 != null && step.characterExpression2 != null)
+            characterImage2.sprite = step.characterExpression2;
+
+        // show/hide UI
         if (step.uiToShow != null)
             step.uiToShow.SetActive(true);
+
         if (step.uiToHide != null)
             step.uiToHide.SetActive(false);
 
-        //  mainkan suara one-shot (jika ada)
+        if (step.uiToShow1 != null)
+            step.uiToShow1.SetActive(true);
+
+        if (step.uiToHide1 != null)
+            step.uiToHide1.SetActive(false);
+
+        // canvas
+        if (step.canvasToShow != null)
+            step.canvasToShow.SetActive(true);
+
+        if (step.canvasToHide != null)
+            step.canvasToHide.SetActive(false);
+
+        //  BAGIAN PALING PENTING (LAYER / ORDER)
+        if (step.uiToFront != null)
+        {
+            foreach (var ui in step.uiToFront)
+            {
+                if (ui != null)
+                    ui.transform.SetAsLastSibling(); // paling depan
+            }
+        }
+
+        // sound
         if (audioSource != null && step.stepSound != null)
             audioSource.PlayOneShot(step.stepSound);
     }
@@ -94,14 +140,13 @@ public class AdvanceTutorialManager : MonoBehaviour
     void EndTutorial()
     {
         Debug.Log("Tutorial selesai!");
+
         if (!string.IsNullOrEmpty(nextSceneName))
         {
-            //  Pindah ke scene berikut
             SceneManager.LoadScene(nextSceneName);
         }
         else
         {
-            // kalau tidak diisi, cukup tutup canvas
             tutorialCanvas.gameObject.SetActive(false);
         }
     }
