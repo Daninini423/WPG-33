@@ -10,11 +10,11 @@ public class NextChapterUI : MonoBehaviour
     public GameObject nextChapterPanel;
 
 #if UNITY_EDITOR
-    [SerializeField] private SceneAsset nextScene; // drag scene di Inspector
+    [SerializeField] private SceneAsset nextScene;
 #endif
 
     private string nextSceneName;
-    private bool canGoNext = false; // supaya tombol hanya aktif setelah UI muncul
+    private bool canGoNext = false;
 
     private void Start()
     {
@@ -30,7 +30,6 @@ public class NextChapterUI : MonoBehaviour
     {
         EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
 
-        // kalau semua musuh sudah spawn dan mati → tampilkan panel
         if (EnemyManager.aliveEnemies <= 0 &&
             spawner.GetTotalSpawnedCount() >= spawner.GetTotalMaxCount())
         {
@@ -38,7 +37,7 @@ public class NextChapterUI : MonoBehaviour
             canGoNext = true;
         }
 
-        if (canGoNext && Input.GetKeyDown(KeyCode.Mouse0))
+        if (canGoNext && Input.GetKeyDown(KeyCode.Space))
         {
             NextScene();
         }
@@ -46,6 +45,11 @@ public class NextChapterUI : MonoBehaviour
 
     public void NextScene()
     {
+        // 🔥 RESET sebelum pindah scene (INI PENTING BANGET)
+        Time.timeScale = 1f;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         if (!string.IsNullOrEmpty(nextSceneName))
         {
             SceneManager.LoadScene(nextSceneName);
@@ -56,4 +60,3 @@ public class NextChapterUI : MonoBehaviour
         }
     }
 }
-

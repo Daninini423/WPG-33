@@ -36172,7 +36172,7 @@ MonoBehaviour:
   - {fileID: 2017346540}
   - {fileID: 1543341395}
   spawnInterval0: 4
-  maxSpawnCount0: 15
+  maxSpawnCount0: 4
   spawnInterval1: 0
   maxSpawnCount1: 0
   spawnInterval2: 0
