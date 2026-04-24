@@ -25749,8 +25749,6 @@ MonoBehaviour:
   - name: Ulat
     audioClips:
     - {fileID: 8300000, guid: 07bbaa1545bda3342a51debf6da2c026, type: 3}
-  - name: 
-    audioClips: []
 --- !u!82 &1236718868
 AudioSource:
   m_ObjectHideFlags: 0
