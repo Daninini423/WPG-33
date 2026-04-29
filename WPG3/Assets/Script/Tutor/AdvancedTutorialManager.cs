@@ -16,8 +16,11 @@ public class AdvanceTutorialManager : MonoBehaviour
         public GameObject uiToShow1;
         public GameObject uiToHide1;
 
-        public GameObject canvasToShow;
-        public GameObject canvasToHide;
+        public GameObject uiToShow2;
+        public GameObject uiToHide2;
+
+        public GameObject uiToShow3;
+        public GameObject uiToHide3;
 
         public Sprite characterExpression1;
         public Sprite characterExpression2;
@@ -106,12 +109,17 @@ public class AdvanceTutorialManager : MonoBehaviour
         if (step.uiToHide1 != null)
             step.uiToHide1.SetActive(false);
 
-        // canvas
-        if (step.canvasToShow != null)
-            step.canvasToShow.SetActive(true);
+        if (step.uiToShow2 != null)
+            step.uiToShow2.SetActive(true);
 
-        if (step.canvasToHide != null)
-            step.canvasToHide.SetActive(false);
+        if (step.uiToHide2 != null)
+            step.uiToHide2.SetActive(false);
+
+        if (step.uiToShow3 != null)
+            step.uiToShow3.SetActive(true);
+
+        if (step.uiToHide3 != null)
+            step.uiToHide3.SetActive(false);
 
         //  BAGIAN PALING PENTING (LAYER / ORDER)
         if (step.uiToFront != null)
