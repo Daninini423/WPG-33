@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2422857352506188880}
   - component: {fileID: 2750827842800993885}
   m_Layer: 10
-  m_Name: Beam
+  m_Name: BeamProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4208520417009149928}
   serializedVersion: 8
-  lengthInSec: 0.5
+  lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -4887,6 +4887,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileMove
   speed: 20
   WaterRate: 5
+  muzzlePrefab: {fileID: 9117872793963146754, guid: a634b66f203ef7d4c8fd634b38b66e10, type: 3}
+  hitPrefab: {fileID: 8250070606637824774, guid: 411f5d2aaf45308448a34961b17199b9, type: 3}
 --- !u!65 &2243686498330738023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4907,7 +4909,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 0.7113597, z: 0.65145373}
-  m_Center: {x: 0, y: -0.013615102, z: 0.00000016391277}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &-6502501176867025512
 Rigidbody:
   m_ObjectHideFlags: 0

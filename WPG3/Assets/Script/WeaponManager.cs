@@ -16,10 +16,14 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] int bulletsPerShot;
     AimStateManager aim;
 
+    [Header("VFX Settings")]
+    [SerializeField] GameObject muzzlePrefab; // Slot baru untuk Semburan Pistol
+
     [SerializeField] AudioClip gunShot;
     AudioSource audioSource;
     WeaponAmmo ammo;
     ActionStateManager actions;
+
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -47,8 +51,6 @@ public class WeaponManager : MonoBehaviour
                 Fire();
             }
         }
-
-        Debug.Log(ammo.currentAmmo);
     }
 
     bool ShouldFire()
@@ -69,16 +71,36 @@ public class WeaponManager : MonoBehaviour
         audioSource.PlayOneShot(gunShot);
         ammo.currentAmmo--;
         aim.anim.SetTrigger("Shoot");
+
         if (!(aim.currentState is AimState))
             aim.SwitchState(aim.Aim);
-        for (int i =0; i < bulletsPerShot; i++)
+
+        // --- BAGIAN BARU: Memunculkan VFX Muzzle (Semburan Pistol) ---
+        if (muzzlePrefab != null)
+        {
+            // Melahirkan efek semburan tepat di posisi ujung laras (barrelPos)
+            var muzzleVFX = Instantiate(muzzlePrefab, barrelPos.position, barrelPos.rotation);
+            var psMuzzle = muzzleVFX.GetComponent<ParticleSystem>();
+
+            // Menghancurkan efek otomatis setelah selesai diputar
+            if (psMuzzle != null)
+                Destroy(muzzleVFX, psMuzzle.main.duration);
+            else
+            {
+                var psChild = muzzleVFX.transform.GetChild(0).GetComponent<ParticleSystem>();
+                Destroy(muzzleVFX, psChild.main.duration);
+            }
+        }
+        // -------------------------------------------------------------
+
+        for (int i = 0; i < bulletsPerShot; i++)
         {
             GameObject currentBullet = Instantiate(bullet, barrelPos.position, barrelPos.rotation);
             Rigidbody rb = currentBullet.GetComponent<Rigidbody>();
             rb.AddForce(barrelPos.forward * bulletVelocity, ForceMode.Impulse);
         }
-        
     }
+
     public void SpawnBullet()
     {
         for (int i = 0; i < bulletsPerShot; i++)
@@ -88,5 +110,4 @@ public class WeaponManager : MonoBehaviour
             rb.AddForce(barrelPos.forward * bulletVelocity, ForceMode.Impulse);
         }
     }
-
 }
