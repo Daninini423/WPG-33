@@ -8265,8 +8265,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.163455, y: 0.6543575, z: 0.68402547}
-  m_Center: {x: -0.0018315315, y: 0.32717875, z: -0.001573354}
+  m_Size: {x: 1.163455, y: 0.3, z: 0.68402547}
+  m_Center: {x: -0.0018315315, y: 0.18, z: -0.001573354}
 --- !u!4 &257613285 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 38d95ca48a5b3214490f44a3190ad84e, type: 3}
@@ -15931,7 +15931,7 @@ Transform:
   m_GameObject: {fileID: 430660177}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.17, y: 3.2291455, z: 6.3}
+  m_LocalPosition: {x: 15.5, y: 1, z: 6.3}
   m_LocalScale: {x: 0.56, y: 0.56, z: 0.56}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -22209,7 +22209,7 @@ Transform:
   m_GameObject: {fileID: 524913440}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6236, y: 4.4859457, z: 2.9672003}
+  m_LocalPosition: {x: 15.9536, y: 2.2568, z: 2.9672003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26654,8 +26654,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.1634556, y: 0.6543575, z: 0.6840258}
-  m_Center: {x: -0.0018315325, y: 0.32717875, z: -0.0015733547}
+  m_Size: {x: 1.1634556, y: 0.3, z: 0.6840258}
+  m_Center: {x: -0.0018315325, y: 0.18, z: -0.0015733547}
 --- !u!4 &804706884 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 38d95ca48a5b3214490f44a3190ad84e, type: 3}
@@ -29880,8 +29880,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.1634551, y: 0.6543575, z: 0.6840255}
-  m_Center: {x: -0.0018315318, y: 0.32717875, z: -0.0015733542}
+  m_Size: {x: 1.1634551, y: 0.3, z: 0.6840255}
+  m_Center: {x: -0.0018315318, y: 0.18, z: -0.0015733542}
 --- !u!4 &1001782010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 38d95ca48a5b3214490f44a3190ad84e, type: 3}
@@ -35146,8 +35146,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.1819284, y: 0.67524076, z: 0.7263995}
-  m_Center: {x: -0.0047283173, y: 0.33762038, z: -0.009938836}
+  m_Size: {x: 2.1819284, y: 0.3, z: 0.7263995}
+  m_Center: {x: -0.0047283173, y: 0.18, z: -0.009938836}
 --- !u!4 &1034601468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0fbd37f319c343e45960d9b777b968c1, type: 3}
@@ -40344,7 +40344,7 @@ Transform:
   m_GameObject: {fileID: 1056942313}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8100001, y: 2.244286, z: -5.951429}
+  m_LocalPosition: {x: 0.8100001, y: 2.2442858, z: -5.951429}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43995,6 +43995,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 3113272279216889251, guid: 98151c2e1631ac44d98ab7a7548c5431, type: 3}
   enemyPrefab1: {fileID: 0}
   enemyPrefab2: {fileID: 0}
+  bossPrefab: {fileID: 0}
   spawnPoints:
   - {fileID: 466589713}
   - {fileID: 774735075}
@@ -44006,6 +44007,7 @@ MonoBehaviour:
   maxSpawnCount1: 0
   spawnInterval2: 0
   maxSpawnCount2: 0
+  bossSpawnDelay: 2
 --- !u!4 &1262378309
 Transform:
   m_ObjectHideFlags: 0
@@ -46584,8 +46586,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.163455, y: 0.6543575, z: 0.68402547}
-  m_Center: {x: -0.0018315315, y: 0.32717875, z: -0.001573354}
+  m_Size: {x: 1.163455, y: 0.3, z: 0.68402547}
+  m_Center: {x: -0.0018315315, y: 0.22, z: -0.001573354}
 --- !u!4 &1424543216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 38d95ca48a5b3214490f44a3190ad84e, type: 3}
@@ -49103,7 +49105,7 @@ MonoBehaviour:
   semiAuto: 0
   bullet: {fileID: 8543034977042659343, guid: 6e514e69a542e404893ddd9ee96f7a10, type: 3}
   barrelPos: {fileID: 1603806957}
-  bulletVelocity: 200
+  bulletVelocity: 10000
   bulletsPerShot: 1
   muzzlePrefab: {fileID: 9117872793963146754, guid: a634b66f203ef7d4c8fd634b38b66e10, type: 3}
   gunShot: {fileID: 8300000, guid: 6d4a0eaaa3499b145b99c9cc1a4e3cd7, type: 3}
@@ -59791,8 +59793,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.1819284, y: 0.67524076, z: 0.7263995}
-  m_Center: {x: -0.0047283173, y: 0.33762038, z: -0.009938836}
+  m_Size: {x: 2.1819284, y: 0.3, z: 0.7263995}
+  m_Center: {x: -0.0047283173, y: 0.18, z: -0.009938836}
 --- !u!4 &1920806173 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0fbd37f319c343e45960d9b777b968c1, type: 3}

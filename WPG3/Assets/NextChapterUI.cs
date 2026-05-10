@@ -11,6 +11,7 @@ public class NextChapterUI : MonoBehaviour
 #endif
     private string nextSceneName;
     private bool canGoNext = false;
+
     private void Start()
     {
         nextChapterPanel.SetActive(false);
@@ -19,35 +20,38 @@ public class NextChapterUI : MonoBehaviour
             nextSceneName = nextScene.name;
 #endif
     }
+
     private void Update()
     {
         EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
+        if (spawner == null) return;
+
         if (EnemyManager.aliveEnemies <= 0 &&
             spawner.GetTotalSpawnedCount() >= spawner.GetTotalMaxCount())
         {
-            if (!canGoNext) // Hanya jalankan sekali
+            // Kalau ada boss, tunggu boss mati dulu
+            if (spawner.HasBoss() && !spawner.IsBossDead()) return;
+
+            if (!canGoNext)
             {
                 nextChapterPanel.SetActive(true);
                 canGoNext = true;
-
-                // Tampilkan cursor saat victory
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
             }
         }
+
         if (canGoNext && Input.GetKeyDown(KeyCode.Space))
         {
             NextScene();
         }
     }
+
     public void NextScene()
     {
         Time.timeScale = 1f;
-
-        // Cursor sudah dihandle, pastikan tetap visible saat pindah scene
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
-
         if (!string.IsNullOrEmpty(nextSceneName))
         {
             SceneManager.LoadScene(nextSceneName);
