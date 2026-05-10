@@ -11,6 +11,7 @@ public class DamageDealer : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Base"))
         {
+            Debug.Log("Damage yang dipakai: " + damageAmount);
             if (Time.time - lastDamageTime >= damageCooldown)
             {
                 Health health = collision.gameObject.GetComponent<Health>();
