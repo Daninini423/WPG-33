@@ -60,5 +60,7 @@ public class NextChapterUI : MonoBehaviour
         {
             Debug.LogError("Next scene belum diset!");
         }
+
+
     }
 }
