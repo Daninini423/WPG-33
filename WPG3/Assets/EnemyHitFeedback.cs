@@ -41,4 +41,4 @@ public class EnemyHitFeedback : MonoBehaviour
 
         enemyRenderer.material.color = originalColor;
     }
-}
+}   
