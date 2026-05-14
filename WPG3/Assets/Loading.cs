@@ -1,34 +1,53 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 public class Loading : MonoBehaviour
 {
-    [SerializeField] int timeToWait = 5;
+    [Header("Loading Settings")]
+    [SerializeField] private int timeToWait = 5;
 
-    void Start()
+#if UNITY_EDITOR
+    [Header("Target Scene")]
+    [SerializeField] private SceneAsset targetScene;
+#endif
+
+    private string targetSceneName;
+
+    private void Start()
     {
+#if UNITY_EDITOR
+        if (targetScene != null)
+        {
+            targetSceneName = targetScene.name;
+        }
+#endif
+
         StartCoroutine(WaitForTime());
     }
 
     IEnumerator WaitForTime()
     {
-        yield return new WaitForSeconds(timeToWait);
+        yield return new WaitForSecondsRealtime(timeToWait);
+
         LoadNextScene();
     }
 
     void LoadNextScene()
     {
         Time.timeScale = 1f;
-        int targetScene = PlayerPrefs.GetInt("TargetScene", 2);
-        SceneManager.LoadScene(targetScene);
-    }
 
-    // Dipanggil dari scene lain sebelum masuk Loading
-    public static void LoadViaLoading(int targetSceneIndex)
-    {
-        PlayerPrefs.SetInt("TargetScene", targetSceneIndex);
-        SceneManager.LoadScene(1); // index Loading Screen
+        if (!string.IsNullOrEmpty(targetSceneName))
+        {
+            SceneManager.LoadScene(targetSceneName);
+        }
+        else
+        {
+            Debug.LogError("Target Scene belum diset!");
+        }
     }
 }
