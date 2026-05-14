@@ -150,37 +150,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.70333666, y: 0.59999996, z: 0.70333666}
   m_Center: {x: 0, y: 0.29999998, z: -0.00000011920928}
---- !u!1 &5802125
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5802126}
-  m_Layer: 0
-  m_Name: Pohon cemara (19)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5802126
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5802125}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.44682705, z: -0, w: 0.89462036}
-  m_LocalPosition: {x: -103, y: -12.43, z: -16.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -53.081, z: 0}
 --- !u!1 &7379662
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,99 +406,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1634551, y: 0.6543575, z: 0.6840255}
   m_Center: {x: -0.0018315318, y: 0.32717875, z: -0.0015733542}
---- !u!1 &24117597
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 24117598}
-  m_Layer: 0
-  m_Name: Pohon cemara (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &24117598
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24117597}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.45960265, z: -0, w: 0.8881247}
-  m_LocalPosition: {x: 28.5, y: -12.43, z: 48.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -54.723, z: 0}
---- !u!1 &24200161
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 24200162}
-  m_Layer: 0
-  m_Name: Pohon cemara (21)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &24200162
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24200161}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7801483, z: -0, w: 0.62559456}
-  m_LocalPosition: {x: -132.5, y: -12.43, z: -20.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 102.548, z: 0}
---- !u!1 &29161019
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 29161020}
-  m_Layer: 0
-  m_Name: Pohon cemara (59)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &29161020
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 29161019}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.76550335, z: -0, w: -0.643432}
-  m_LocalPosition: {x: 77.9, y: -12.43, z: 28.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -260.096, z: 0}
 --- !u!1 &30619941
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,37 +512,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.68069196, y: 1.6339577, z: 0.68069166}
   m_Center: {x: 0.00000013411045, y: 0.8169789, z: 0}
---- !u!1 &31916877
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 31916878}
-  m_Layer: 0
-  m_Name: Pohon cemara (44)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &31916878
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31916877}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.67383164, z: -0, w: 0.7388849}
-  m_LocalPosition: {x: 101.1, y: -12.43, z: -56.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -84.727, z: 0}
 --- !u!1 &34091134 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 38d95ca48a5b3214490f44a3190ad84e, type: 3}
@@ -898,37 +743,6 @@ PrefabInstance:
       addedObject: {fileID: 1938564433}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf7c33f33990afa468dd5ba1cdb318ff, type: 3}
---- !u!1 &45797842
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 45797843}
-  m_Layer: 0
-  m_Name: Pohon cemara (41)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &45797843
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45797842}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.05026088, z: -0, w: 0.9987362}
-  m_LocalPosition: {x: 74.6, y: -12.43, z: -29.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 5.762, z: 0}
 --- !u!1001 &51858576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1141,139 +955,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52911131}
-  m_CullTransparentMesh: 1
---- !u!1 &61450211
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 61450212}
-  - component: {fileID: 61450215}
-  - component: {fileID: 61450214}
-  - component: {fileID: 61450213}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &61450212
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61450211}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 337871139}
-  m_Father: {fileID: 257578214}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: -98}
-  m_SizeDelta: {x: 762.8755, y: 249.9645}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &61450213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61450211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 61450214}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 528509182}
-        m_TargetAssemblyTypeName: NextChapterUI, Assembly-CSharp
-        m_MethodName: NextScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &61450214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61450211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &61450215
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61450211}
   m_CullTransparentMesh: 1
 --- !u!1 &66002105 stripped
 GameObject:
@@ -1771,37 +1452,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &109930106
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 109930107}
-  m_Layer: 0
-  m_Name: Pohon cemara (61)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &109930107
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109930106}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.76550335, z: -0, w: -0.643432}
-  m_LocalPosition: {x: 75.2, y: -12.43, z: 61.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -260.096, z: 0}
 --- !u!4 &115026866 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff3828353e1aae14cbec954495331748, type: 3}
@@ -2192,192 +1842,6 @@ PrefabInstance:
       addedObject: {fileID: 18751478}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf7c33f33990afa468dd5ba1cdb318ff, type: 3}
---- !u!1 &143403731
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 143403732}
-  - component: {fileID: 143403734}
-  - component: {fileID: 143403733}
-  - component: {fileID: 143403735}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &143403732
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143403731}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 575826474}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &143403733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143403731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '
-
-'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 970586418c8103440ba6a96ec8e7886d, type: 2}
-  m_sharedMaterial: {fileID: -1611114864256594123, guid: 970586418c8103440ba6a96ec8e7886d, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 56.78
-  m_fontSizeBase: 56.78
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &143403734
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143403731}
-  m_CullTransparentMesh: 1
---- !u!114 &143403735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143403731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
-  m_UseGraphicAlpha: 1
---- !u!1 &149210176
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 149210177}
-  m_Layer: 0
-  m_Name: Pohon cemara (58)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &149210177
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149210176}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.76550335, z: -0, w: -0.643432}
-  m_LocalPosition: {x: 94.2, y: -12.43, z: 13.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -260.096, z: 0}
 --- !u!1 &161421988 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18559cf3c32505a4a93c99a18d4629e5, type: 3}
@@ -2409,104 +1873,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.4108486, y: 1.6339581, z: 0.68069166}
   m_Center: {x: 0.000000059604645, y: 0.81697905, z: 0}
---- !u!1 &163335893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 163335894}
-  m_Layer: 0
-  m_Name: Pohon cemara (30)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &163335894
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163335893}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9977161, z: -0, w: 0.067546755}
-  m_LocalPosition: {x: -42.8, y: -12.43, z: -26.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -172.254, z: 0}
 --- !u!4 &165116201 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
   m_PrefabInstance: {fileID: 1140895869}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &165384722
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 165384723}
-  m_Layer: 0
-  m_Name: Pohon cemara (55)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &165384723
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165384722}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99411374, z: -0, w: 0.108341865}
-  m_LocalPosition: {x: 128.4, y: -12.43, z: -46.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -167.561, z: 0}
---- !u!1 &166909967
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 166909968}
-  m_Layer: 0
-  m_Name: Pohon cemara (22)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &166909968
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166909967}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.21668652, z: -0, w: 0.97624123}
-  m_LocalPosition: {x: -73.7, y: -12.43, z: -32.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -25.029, z: 0}
 --- !u!1001 &167660009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2567,37 +1938,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 795146037}
   m_SourcePrefab: {fileID: 100100000, guid: 18559cf3c32505a4a93c99a18d4629e5, type: 3}
---- !u!1 &168762503
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 168762504}
-  m_Layer: 0
-  m_Name: Pohon cemara (48)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &168762504
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168762503}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9945866, z: -0, w: 0.10391149}
-  m_LocalPosition: {x: 16.6, y: -12.43, z: -46.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -168.071, z: 0}
 --- !u!1 &172053182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d328c6d8aaa0194d974c695d92b7f48, type: 3}
@@ -3238,37 +2578,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 735534699}
   m_SourcePrefab: {fileID: 100100000, guid: 1fab5b25e5170c04faecbf0c47654070, type: 3}
---- !u!1 &217236006
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 217236007}
-  m_Layer: 0
-  m_Name: Pohon cemara (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &217236007
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217236006}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.1405483, z: -0, w: 0.99007386}
-  m_LocalPosition: {x: -63.963566, y: -12.43, z: -7.4169064}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -16.159, z: 0}
 --- !u!1 &218124818 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b4f4eecff9f1b874ebb5ee464575a4e6, type: 3}
@@ -3300,68 +2609,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.8511105, y: 1.6339581, z: 0.68069166}
   m_Center: {x: 1.0852098, y: 0.81697893, z: 0}
---- !u!1 &222116291
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 222116292}
-  m_Layer: 0
-  m_Name: Pohon cemara (18)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &222116292
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222116291}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99641067, z: -0, w: 0.0846511}
-  m_LocalPosition: {x: -43.236378, y: -12.43, z: 101.09839}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -170.288, z: 0}
---- !u!1 &223024924
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 223024925}
-  m_Layer: 0
-  m_Name: Pohon cemara (29)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &223024925
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223024924}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9977161, z: -0, w: 0.067546755}
-  m_LocalPosition: {x: -70.7, y: -12.43, z: -42.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -172.254, z: 0}
 --- !u!4 &229811397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cf7c33f33990afa468dd5ba1cdb318ff, type: 3}
@@ -3793,271 +3040,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1940768046}
   m_SourcePrefab: {fileID: 100100000, guid: b4f4eecff9f1b874ebb5ee464575a4e6, type: 3}
---- !u!1 &252695965
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 252695966}
-  - component: {fileID: 252695968}
-  - component: {fileID: 252695967}
-  - component: {fileID: 252695969}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &252695966
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252695965}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 257578214}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 115}
-  m_SizeDelta: {x: -1157.1245, y: -830.0355}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &252695967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252695965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'YEY! THE ENEMY HAS BEEN
-
-    DEFEATED
-
-'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 970586418c8103440ba6a96ec8e7886d, type: 2}
-  m_sharedMaterial: {fileID: -1611114864256594123, guid: 970586418c8103440ba6a96ec8e7886d, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4283597526
-  m_fontColor: {r: 0.83921576, g: 0.50980395, b: 0.32156864, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 0.6377357, g: 0.6377357, b: 0.6377357, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 79.17
-  m_fontSizeBase: 79.17
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &252695968
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252695965}
-  m_CullTransparentMesh: 1
---- !u!114 &252695969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252695965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
-  m_EffectDistance: {x: 50, y: -50}
-  m_UseGraphicAlpha: 1
---- !u!1 &256828616
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 256828617}
-  m_Layer: 0
-  m_Name: Pohon cemara (28)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &256828617
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256828616}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.84993505, z: -0, w: 0.5268876}
-  m_LocalPosition: {x: -82.8, y: -12.43, z: -55.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -116.409, z: 0}
---- !u!1 &257578213
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 257578214}
-  - component: {fileID: 257578216}
-  - component: {fileID: 257578215}
-  m_Layer: 5
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &257578214
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257578213}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 252695966}
-  - {fileID: 61450212}
-  m_Father: {fileID: 528509186}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &257578215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257578213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &257578216
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257578213}
-  m_CullTransparentMesh: 1
 --- !u!1001 &263488681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4280,37 +3262,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.85654324, y: 1.3477285, z: 0.8628884}
   m_Center: {x: 0.0010141133, y: 0.6738641, z: 1.8889335e-12}
---- !u!1 &277985698
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 277985699}
-  m_Layer: 0
-  m_Name: Pohon cemara (53)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &277985699
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277985698}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99411374, z: -0, w: 0.108341865}
-  m_LocalPosition: {x: 105.3, y: -12.43, z: -14.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -167.561, z: 0}
 --- !u!1001 &283156308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4693,37 +3644,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
---- !u!1 &313408533
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 313408534}
-  m_Layer: 0
-  m_Name: Pohon cemara (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &313408534
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313408533}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.44682705, z: -0, w: 0.89462036}
-  m_LocalPosition: {x: -80.119, y: -12.43, z: -3.4744167}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -53.081, z: 0}
 --- !u!4 &314173052 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff3828353e1aae14cbec954495331748, type: 3}
@@ -4975,68 +3895,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cf7c33f33990afa468dd5ba1cdb318ff, type: 3}
   m_PrefabInstance: {fileID: 139758387}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &333119220
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 333119221}
-  m_Layer: 0
-  m_Name: Pohon cemara (32)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &333119221
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333119220}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.024925401, z: -0, w: 0.99968934}
-  m_LocalPosition: {x: 23.9, y: -12.43, z: 15.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 2.857, z: 0}
---- !u!1 &333441914
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 333441915}
-  m_Layer: 0
-  m_Name: Pohon cemara (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &333441915
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333441914}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99385184, z: -0, w: 0.11071797}
-  m_LocalPosition: {x: -26.5, y: -12.43, z: 85.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -167.287, z: 0}
 --- !u!1 &333853202
 GameObject:
   m_ObjectHideFlags: 3
@@ -5166,143 +4024,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 664390414}
   m_SourcePrefab: {fileID: 100100000, guid: 18559cf3c32505a4a93c99a18d4629e5, type: 3}
---- !u!1 &337871138
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 337871139}
-  - component: {fileID: 337871141}
-  - component: {fileID: 337871140}
-  m_Layer: 5
-  m_Name: Text (TMP) (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &337871139
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337871138}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 61450212}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &337871140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337871138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: PRESS SPACE TO NEXT
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 970586418c8103440ba6a96ec8e7886d, type: 2}
-  m_sharedMaterial: {fileID: -1611114864256594123, guid: 970586418c8103440ba6a96ec8e7886d, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4283993831
-  m_fontColor: {r: 0.9058824, g: 0.5568628, b: 0.34509805, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 0.7056604, g: 0.7056604, b: 0.7056604, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 79.17
-  m_fontSizeBase: 79.17
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &337871141
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337871138}
-  m_CullTransparentMesh: 1
 --- !u!1001 &341147865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5514,94 +4235,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
   m_PrefabInstance: {fileID: 1233064868}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &359515040
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 359515041}
-  m_Layer: 0
-  m_Name: Pohon Cemara Parent
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &359515041
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 359515040}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.41583377, y: 12.561123, z: -195.03856}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 24117598}
-  - {fileID: 1212573102}
-  - {fileID: 1868729107}
-  - {fileID: 1202187072}
-  - {fileID: 1080058140}
-  - {fileID: 1102338441}
-  - {fileID: 1414245714}
-  - {fileID: 606388303}
-  - {fileID: 45797843}
-  - {fileID: 1152982692}
-  - {fileID: 661348925}
-  - {fileID: 31916878}
-  - {fileID: 1780918599}
-  - {fileID: 277985699}
-  - {fileID: 704639568}
-  - {fileID: 496025542}
-  - {fileID: 1274138511}
-  - {fileID: 149210177}
-  - {fileID: 29161020}
-  - {fileID: 2017237051}
-  - {fileID: 109930107}
-  - {fileID: 1370869858}
-  - {fileID: 165384723}
-  - {fileID: 769407261}
-  - {fileID: 1827483298}
-  - {fileID: 980203322}
-  - {fileID: 168762504}
-  - {fileID: 1206961975}
-  - {fileID: 1387990979}
-  - {fileID: 1031037830}
-  - {fileID: 824249010}
-  - {fileID: 333119221}
-  - {fileID: 1809215777}
-  - {fileID: 333441915}
-  - {fileID: 431963899}
-  - {fileID: 217236007}
-  - {fileID: 1045028877}
-  - {fileID: 2119689969}
-  - {fileID: 1222769565}
-  - {fileID: 1432721422}
-  - {fileID: 1806514059}
-  - {fileID: 222116292}
-  - {fileID: 313408534}
-  - {fileID: 5802126}
-  - {fileID: 1568270887}
-  - {fileID: 24200162}
-  - {fileID: 166909968}
-  - {fileID: 1864667744}
-  - {fileID: 1883812301}
-  - {fileID: 548382856}
-  - {fileID: 641086453}
-  - {fileID: 256828617}
-  - {fileID: 223024925}
-  - {fileID: 163335894}
-  - {fileID: 1234279334}
-  - {fileID: 661105571}
-  - {fileID: 625091461}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &367443646 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d328c6d8aaa0194d974c695d92b7f48, type: 3}
@@ -6656,37 +5289,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
---- !u!1 &431963898
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 431963899}
-  m_Layer: 0
-  m_Name: Pohon cemara (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &431963899
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431963898}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99385184, z: -0, w: 0.11071797}
-  m_LocalPosition: {x: -43.5, y: -12.43, z: 67.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -167.287, z: 0}
 --- !u!1 &434065828
 GameObject:
   m_ObjectHideFlags: 0
@@ -7917,37 +6519,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 677532941}
   m_SourcePrefab: {fileID: 100100000, guid: 56c0f7607a9426c43843641d029bf7cf, type: 3}
---- !u!1 &496025541
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 496025542}
-  m_Layer: 0
-  m_Name: Pohon cemara (56)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &496025542
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496025541}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.714362, z: -0, w: -0.69977635}
-  m_LocalPosition: {x: 95.84274, y: -12.43, z: -23.526518}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -268.818, z: 0}
 --- !u!1001 &503131682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8244,124 +6815,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1272050494834717761, guid: 1e025b70be5ed5b438f1c6c4fa2cb88b, type: 3}
   m_PrefabInstance: {fileID: 816751037}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &528509181
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 528509186}
-  - component: {fileID: 528509185}
-  - component: {fileID: 528509184}
-  - component: {fileID: 528509183}
-  - component: {fileID: 528509182}
-  m_Layer: 5
-  m_Name: NextWaveButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &528509182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528509181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 697974d169045984599830d66a7cf177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextChapterPanel: {fileID: 257578213}
-  nextScene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
---- !u!114 &528509183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528509181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &528509184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528509181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &528509185
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528509181}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &528509186
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528509181}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 257578214}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &529252217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8445,37 +6898,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff3828353e1aae14cbec954495331748, type: 3}
   m_PrefabInstance: {fileID: 1283642511}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &548382855
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 548382856}
-  m_Layer: 0
-  m_Name: Pohon cemara (26)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &548382856
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 548382855}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.60438263, z: -0, w: 0.79669416}
-  m_LocalPosition: {x: -99.6, y: -12.43, z: -44.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -74.369, z: 0}
 --- !u!1 &550991206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b4f4eecff9f1b874ebb5ee464575a4e6, type: 3}
@@ -8878,127 +7300,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1876984794}
   m_SourcePrefab: {fileID: 100100000, guid: f0bfd78d373333745ab4552381360552, type: 3}
---- !u!1 &575826473
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 575826474}
-  - component: {fileID: 575826477}
-  - component: {fileID: 575826476}
-  - component: {fileID: 575826475}
-  m_Layer: 5
-  m_Name: TryAgain
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &575826474
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575826473}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1.429, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 143403732}
-  m_Father: {fileID: 1164881383}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.52173, y: -143}
-  m_SizeDelta: {x: 500, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &575826475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575826473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 575826476}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &575826476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575826473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5578fb29c3c5fea43b0dffb66c6bb6e2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &575826477
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575826473}
-  m_CullTransparentMesh: 1
 --- !u!1 &578335507 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3a622775a4b41a8429747d74abfb73e2, type: 3}
@@ -9379,37 +7680,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
---- !u!1 &606388302
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 606388303}
-  m_Layer: 0
-  m_Name: Pohon cemara (39)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &606388303
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606388302}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.58681417, z: -0, w: 0.8097216}
-  m_LocalPosition: {x: 77.64, y: -12.43, z: -18.88}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -71.863, z: 0}
 --- !u!1 &608129702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0fbd37f319c343e45960d9b777b968c1, type: 3}
@@ -9767,7 +8037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3827dd10bad50064796a5081b7ebcc73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: {fileID: 0}
+  health: {fileID: 1899697517}
   healthText: {fileID: 1101411616}
 --- !u!114 &620278550
 MonoBehaviour:
@@ -9781,9 +8051,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf0f7a4af079fef4197596f6615b707d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: {fileID: 0}
+  health: {fileID: 1899697517}
   healthBarFill: {fileID: 1263770788}
-  healthText: {fileID: 0}
+  healthText: {fileID: 1454663596}
 --- !u!1 &621560390 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1fab5b25e5170c04faecbf0c47654070, type: 3}
@@ -9815,37 +8085,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2877531, y: 0.8535559, z: 1.2234504}
   m_Center: {x: -0.032160282, y: 0.42677784, z: -0.029882222}
---- !u!1 &625091460
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 625091461}
-  m_Layer: 0
-  m_Name: Pohon cemara (24)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &625091461
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 625091460}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.5491042, z: -0, w: 0.83575386}
-  m_LocalPosition: {x: -35.2, y: -12.43, z: -18.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -66.611, z: 0}
 --- !u!1001 &630193499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10484,37 +8723,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.8511105, y: 1.6339581, z: 0.68069166}
   m_Center: {x: 1.0852098, y: 0.81697893, z: 0}
---- !u!1 &641086452
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 641086453}
-  m_Layer: 0
-  m_Name: Pohon cemara (27)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &641086453
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641086452}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.84993505, z: -0, w: 0.5268876}
-  m_LocalPosition: {x: -106.2, y: -12.43, z: -52.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -116.409, z: 0}
 --- !u!1 &641430454 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d328c6d8aaa0194d974c695d92b7f48, type: 3}
@@ -11036,68 +9244,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1469691938}
   m_SourcePrefab: {fileID: 100100000, guid: 12f6101945d9446419329916f51927d4, type: 3}
---- !u!1 &661105570
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 661105571}
-  m_Layer: 0
-  m_Name: Pohon cemara (31)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &661105571
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661105570}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.053909764, z: -0, w: -0.9985459}
-  m_LocalPosition: {x: -48.8, y: -12.43, z: -59.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -353.819, z: 0}
---- !u!1 &661348924
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 661348925}
-  m_Layer: 0
-  m_Name: Pohon cemara (43)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &661348925
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661348924}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.05026088, z: -0, w: 0.9987362}
-  m_LocalPosition: {x: 39.3, y: -12.43, z: -61.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 5.762, z: 0}
 --- !u!1 &664390412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18559cf3c32505a4a93c99a18d4629e5, type: 3}
@@ -16686,37 +14832,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699051054}
   m_CullTransparentMesh: 1
---- !u!1 &704639567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 704639568}
-  m_Layer: 0
-  m_Name: Pohon cemara (54)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &704639568
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704639567}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99411374, z: -0, w: 0.108341865}
-  m_LocalPosition: {x: 124.2, y: -12.43, z: -28.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -167.561, z: 0}
 --- !u!1001 &712187467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17896,37 +16011,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cf7c33f33990afa468dd5ba1cdb318ff, type: 3}
   m_PrefabInstance: {fileID: 1216361612}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &769407260
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 769407261}
-  m_Layer: 0
-  m_Name: Pohon cemara (45)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &769407261
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769407260}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.67383164, z: -0, w: 0.7388849}
-  m_LocalPosition: {x: 83.9, y: -12.43, z: -60.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -84.727, z: 0}
 --- !u!1 &781204686
 GameObject:
   m_ObjectHideFlags: 0
@@ -18803,37 +16887,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 898885808}
   m_SourcePrefab: {fileID: 100100000, guid: 97fdd4d884dd3f14ba8fc19e027ecfc8, type: 3}
---- !u!1 &824249009
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 824249010}
-  m_Layer: 0
-  m_Name: Pohon cemara (35)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &824249010
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824249009}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.6279508, z: -0, w: 0.7782531}
-  m_LocalPosition: {x: 72.93, y: -12.43, z: 63.71}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -77.798, z: 0}
 --- !u!1001 &833289071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24985,7 +23038,7 @@ Transform:
   m_GameObject: {fileID: 944037511}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.661953, y: 1.8500004, z: -3.6448975}
+  m_LocalPosition: {x: 0.6619527, y: 2.1642861, z: -5.2162895}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25419,8 +23472,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.661953, y: 4.35, z: 5.3551407}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 31.821121, y: 2.2120001, z: 7.230694}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26022,37 +24075,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff3828353e1aae14cbec954495331748, type: 3}
   m_PrefabInstance: {fileID: 1913801911}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &980203321
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 980203322}
-  m_Layer: 0
-  m_Name: Pohon cemara (47)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &980203322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980203321}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.67383164, z: -0, w: 0.7388849}
-  m_LocalPosition: {x: 45.4, y: -12.43, z: -48.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -84.727, z: 0}
 --- !u!1001 &982071084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26786,37 +24808,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 107877938}
   m_SourcePrefab: {fileID: 100100000, guid: f0bfd78d373333745ab4552381360552, type: 3}
---- !u!1 &1031037829
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1031037830}
-  m_Layer: 0
-  m_Name: Pohon cemara (40)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1031037830
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031037829}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.58681417, z: -0, w: 0.8097216}
-  m_LocalPosition: {x: 74.4, y: -12.43, z: 18.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -71.863, z: 0}
 --- !u!4 &1036634334 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff3828353e1aae14cbec954495331748, type: 3}
@@ -26900,37 +24891,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
---- !u!1 &1045028876
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1045028877}
-  m_Layer: 0
-  m_Name: Pohon cemara (12)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1045028877
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1045028876}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.75933117, z: -0, w: 0.65070444}
-  m_LocalPosition: {x: -60.6, y: -12.43, z: 45.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -98.811, z: 0}
 --- !u!1001 &1050998487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28082,37 +26042,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1080058139
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1080058140}
-  m_Layer: 0
-  m_Name: Pohon cemara (36)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1080058140
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080058139}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.036103237, z: -0, w: 0.99934804}
-  m_LocalPosition: {x: 69.5, y: -12.43, z: 30.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 4.138, z: 0}
 --- !u!1001 &1087693112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28443,37 +26372,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1102338440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1102338441}
-  m_Layer: 0
-  m_Name: Pohon cemara (37)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1102338441
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102338440}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.036103237, z: -0, w: 0.99934804}
-  m_LocalPosition: {x: 72.65, y: -12.43, z: 11.57}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 4.138, z: 0}
 --- !u!1 &1103974635
 GameObject:
   m_ObjectHideFlags: 0
@@ -34236,37 +32134,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.85654324, y: 1.3477285, z: 0.8628884}
   m_Center: {x: 0.0010141133, y: 0.6738641, z: 0}
---- !u!1 &1152982691
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1152982692}
-  m_Layer: 0
-  m_Name: Pohon cemara (42)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1152982692
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152982691}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.05026088, z: -0, w: 0.9987362}
-  m_LocalPosition: {x: 76.8, y: -12.43, z: -50.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 5.762, z: 0}
 --- !u!1001 &1154183522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34752,83 +32619,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1963250943}
   m_SourcePrefab: {fileID: 100100000, guid: 0fbd37f319c343e45960d9b777b968c1, type: 3}
---- !u!1 &1164881380
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1164881383}
-  - component: {fileID: 1164881382}
-  - component: {fileID: 1164881381}
-  m_Layer: 5
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1164881381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164881380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1164881382
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164881380}
-  m_CullTransparentMesh: 1
---- !u!224 &1164881383
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164881380}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1790079682}
-  - {fileID: 575826474}
-  m_Father: {fileID: 2027574739}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1173806989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35181,37 +32971,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cf7c33f33990afa468dd5ba1cdb318ff, type: 3}
   m_PrefabInstance: {fileID: 2083600036}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1202187071
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1202187072}
-  m_Layer: 0
-  m_Name: Pohon cemara (34)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1202187072
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202187071}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.036103237, z: -0, w: 0.99934804}
-  m_LocalPosition: {x: 71, y: -12.43, z: 51.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 4.138, z: 0}
 --- !u!1 &1203096151 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f0bfd78d373333745ab4552381360552, type: 3}
@@ -35346,68 +33105,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1422917246}
   m_SourcePrefab: {fileID: 100100000, guid: 56c0f7607a9426c43843641d029bf7cf, type: 3}
---- !u!1 &1206961974
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1206961975}
-  m_Layer: 0
-  m_Name: Pohon cemara (49)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1206961975
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206961974}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9945866, z: -0, w: 0.10391149}
-  m_LocalPosition: {x: 1.1, y: -12.43, z: -33.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -168.071, z: 0}
---- !u!1 &1212573101
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1212573102}
-  m_Layer: 0
-  m_Name: Pohon cemara (33)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1212573102
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212573101}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.08122031, z: -0, w: 0.9966962}
-  m_LocalPosition: {x: -18.7, y: -12.43, z: 17.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 9.317, z: 0}
 --- !u!1 &1215309655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 97fdd4d884dd3f14ba8fc19e027ecfc8, type: 3}
@@ -35579,37 +33276,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 641430456}
   m_SourcePrefab: {fileID: 100100000, guid: 6d328c6d8aaa0194d974c695d92b7f48, type: 3}
---- !u!1 &1222769564
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1222769565}
-  m_Layer: 0
-  m_Name: Pohon cemara (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1222769565
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222769564}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.44682705, z: -0, w: 0.89462036}
-  m_LocalPosition: {x: -92.5, y: -12.43, z: 16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -53.081, z: 0}
 --- !u!1 &1226480514
 GameObject:
   m_ObjectHideFlags: 0
@@ -35836,37 +33502,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
---- !u!1 &1234279333
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1234279334}
-  m_Layer: 0
-  m_Name: Pohon cemara (51)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1234279334
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234279333}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9977161, z: -0, w: 0.067546755}
-  m_LocalPosition: {x: -37.3, y: -12.43, z: -44}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -172.254, z: 0}
 --- !u!4 &1235687653 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
@@ -35923,6 +33558,9 @@ MonoBehaviour:
   - name: Ulat
     audioClips:
     - {fileID: 8300000, guid: 07bbaa1545bda3342a51debf6da2c026, type: 3}
+  - name: Crounch
+    audioClips:
+    - {fileID: 8300000, guid: e7f25d58095b60a4e89967c65b29d858, type: 3}
 --- !u!82 &1236718868
 AudioSource:
   m_ObjectHideFlags: 0
@@ -36483,37 +34121,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1156263168}
   m_SourcePrefab: {fileID: 100100000, guid: 5184c38aaeec10340a3a19a5d092d213, type: 3}
---- !u!1 &1274138510
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1274138511}
-  m_Layer: 0
-  m_Name: Pohon cemara (57)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1274138511
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274138510}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.76550335, z: -0, w: -0.643432}
-  m_LocalPosition: {x: 79.850914, y: -12.43, z: -6.598673}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -260.096, z: 0}
 --- !u!1 &1275242251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 12f6101945d9446419329916f51927d4, type: 3}
@@ -42988,37 +40595,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1370869857
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1370869858}
-  m_Layer: 0
-  m_Name: Pohon cemara (62)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1370869858
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370869857}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.50440574, z: -0, w: -0.86346686}
-  m_LocalPosition: {x: 99.9, y: -12.43, z: 55}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -299.41602, z: 0}
 --- !u!1001 &1372394650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43430,37 +41006,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.8511105, y: 1.6339581, z: 0.68069166}
   m_Center: {x: 1.0852098, y: 0.81697893, z: 0}
---- !u!1 &1387990978
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1387990979}
-  m_Layer: 0
-  m_Name: Pohon cemara (50)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1387990979
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387990978}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.048848633, z: -0, w: -0.9988062}
-  m_LocalPosition: {x: -14.9, y: -12.43, z: -69.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -354.4, z: 0}
 --- !u!1001 &1388630581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43571,7 +41116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timertext: {fileID: 1332129369}
   remainingTime: 600
-  gameOverManager: {fileID: 2027574735}
+  gameOverManager: {fileID: 0}
 --- !u!114 &1388788979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43692,7 +41237,7 @@ MonoBehaviour:
   characterImage1: {fileID: 1019774045}
   characterImage2: {fileID: 555692746}
   audioSource: {fileID: 969282261}
-  nextSceneName: SampleScene
+  nextSceneName: MapBaru
   steps:
   - tutorialText: "Semua sudah beres\u2026 apa lagi ya?"
     uiToShow: {fileID: 1019774043}
@@ -44357,37 +41902,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
   m_PrefabInstance: {fileID: 1075015771}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1414245713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1414245714}
-  m_Layer: 0
-  m_Name: Pohon cemara (38)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1414245714
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414245713}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.036103237, z: -0, w: 0.99934804}
-  m_LocalPosition: {x: 72.5, y: -12.43, z: -7.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 4.138, z: 0}
 --- !u!1 &1418880475 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f0bfd78d373333745ab4552381360552, type: 3}
@@ -44534,37 +42048,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e025b70be5ed5b438f1c6c4fa2cb88b, type: 3}
---- !u!1 &1432721421
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1432721422}
-  m_Layer: 0
-  m_Name: Pohon cemara (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1432721422
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432721421}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.89232504, z: -0, w: 0.4513933}
-  m_LocalPosition: {x: -93.4, y: -12.43, z: 80.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -126.334, z: 0}
 --- !u!1001 &1436843539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46123,6 +43606,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 3431997280505815347, guid: 2e88dbaaaebd1aa4b9b7b3efe3f15bef, type: 3}
   enemyPrefab1: {fileID: 0}
   enemyPrefab2: {fileID: 0}
+  bossPrefab: {fileID: 0}
   spawnPoints:
   - {fileID: 1070815467}
   - {fileID: 475037699}
@@ -46134,6 +43618,7 @@ MonoBehaviour:
   maxSpawnCount1: 0
   spawnInterval2: 0
   maxSpawnCount2: 0
+  bossSpawnDelay: 2
 --- !u!1001 &1513354963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46636,37 +44121,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
---- !u!1 &1568270886
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1568270887}
-  m_Layer: 0
-  m_Name: Pohon cemara (20)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1568270887
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568270886}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7801483, z: -0, w: 0.62559456}
-  m_LocalPosition: {x: -156.2, y: -12.43, z: 46.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: 102.548, z: 0}
 --- !u!1 &1569513446 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 38d95ca48a5b3214490f44a3190ad84e, type: 3}
@@ -49424,37 +46878,6 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
---- !u!1 &1780918598
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1780918599}
-  m_Layer: 0
-  m_Name: Pohon cemara (52)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1780918599
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780918598}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.67383164, z: -0, w: 0.7388849}
-  m_LocalPosition: {x: 120.8, y: -12.43, z: -66.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -84.727, z: 0}
 --- !u!1 &1786003705
 GameObject:
   m_ObjectHideFlags: 0
@@ -49546,163 +46969,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2147063945}
   m_SourcePrefab: {fileID: 100100000, guid: 18559cf3c32505a4a93c99a18d4629e5, type: 3}
---- !u!1 &1790079681
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1790079682}
-  - component: {fileID: 1790079684}
-  - component: {fileID: 1790079683}
-  - component: {fileID: 1790079685}
-  m_Layer: 5
-  m_Name: You Lose
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1790079682
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790079681}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1164881383}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.522, y: 59}
-  m_SizeDelta: {x: 1000, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1790079683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790079681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'No!
-
-    The Magical Tree Has Fallen
-
-'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 970586418c8103440ba6a96ec8e7886d, type: 2}
-  m_sharedMaterial: {fileID: -1611114864256594123, guid: 970586418c8103440ba6a96ec8e7886d, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 78.4
-  m_fontSizeBase: 78.4
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1790079684
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790079681}
-  m_CullTransparentMesh: 1
---- !u!114 &1790079685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790079681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 0.67, y: -1}
-  m_UseGraphicAlpha: 1
 --- !u!1 &1790597675
 GameObject:
   m_ObjectHideFlags: 0
@@ -50088,37 +47354,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.37731215, y: 0.6381817, z: 0.37731218}
   m_Center: {x: 0, y: 0.31909084, z: -0.00000023841858}
---- !u!1 &1806514058
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1806514059}
-  m_Layer: 0
-  m_Name: Pohon cemara (17)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1806514059
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1806514058}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.94785076, z: -0, w: 0.3187147}
-  m_LocalPosition: {x: -81.8, y: -12.43, z: 94.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -142.83, z: 0}
 --- !u!4 &1806979481 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff3828353e1aae14cbec954495331748, type: 3}
@@ -50155,37 +47390,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.4108486, y: 1.6339581, z: 0.68069166}
   m_Center: {x: 0.000000059604645, y: 0.81697905, z: 0}
---- !u!1 &1809215776
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1809215777}
-  m_Layer: 0
-  m_Name: Pohon cemara (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1809215777
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809215776}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9735682, z: -0, w: 0.22839671}
-  m_LocalPosition: {x: -3.7, y: -12.43, z: 96.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -153.595, z: 0}
 --- !u!1001 &1810988273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50544,37 +47748,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 550991208}
   m_SourcePrefab: {fileID: 100100000, guid: b4f4eecff9f1b874ebb5ee464575a4e6, type: 3}
---- !u!1 &1827483297
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1827483298}
-  m_Layer: 0
-  m_Name: Pohon cemara (46)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1827483298
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827483297}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.67383164, z: -0, w: 0.7388849}
-  m_LocalPosition: {x: 64.4, y: -12.43, z: -67.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -84.727, z: 0}
 --- !u!1 &1827586791 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 38d95ca48a5b3214490f44a3190ad84e, type: 3}
@@ -50906,37 +48079,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
---- !u!1 &1864667743
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1864667744}
-  m_Layer: 0
-  m_Name: Pohon cemara (23)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1864667744
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864667743}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.6865071, z: -0, w: 0.72712314}
-  m_LocalPosition: {x: -49.2, y: -12.43, z: -42.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -86.708, z: 0}
 --- !u!1001 &1865380909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51013,37 +48155,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1364943955}
   m_SourcePrefab: {fileID: 100100000, guid: 6d328c6d8aaa0194d974c695d92b7f48, type: 3}
---- !u!1 &1868729106
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1868729107}
-  m_Layer: 0
-  m_Name: Pohon cemara (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1868729107
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868729106}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.6279508, z: -0, w: 0.7782531}
-  m_LocalPosition: {x: 53.2, y: -12.43, z: 59.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -77.798, z: 0}
 --- !u!1 &1872130708 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18559cf3c32505a4a93c99a18d4629e5, type: 3}
@@ -51164,37 +48275,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.1819284, y: 0.67524076, z: 0.7263995}
   m_Center: {x: -0.0047283173, y: 0.33762038, z: -0.009938836}
---- !u!1 &1883812300
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1883812301}
-  m_Layer: 0
-  m_Name: Pohon cemara (25)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1883812301
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883812300}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.60438263, z: -0, w: 0.79669416}
-  m_LocalPosition: {x: -69.8, y: -12.43, z: -53.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -74.369, z: 0}
 --- !u!1 &1887425859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 97fdd4d884dd3f14ba8fc19e027ecfc8, type: 3}
@@ -51614,6 +48694,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 729443426}
   m_SourcePrefab: {fileID: 100100000, guid: 1fab5b25e5170c04faecbf0c47654070, type: 3}
+--- !u!114 &1899697517 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7335386077093233732, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
+  m_PrefabInstance: {fileID: 1859749587}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be26d2c3482ba164ab0e462a1f300e94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
 --- !u!1 &1900621068
 GameObject:
   m_ObjectHideFlags: 0
@@ -53101,37 +50192,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2, y: 1.1999998, z: 1.1999999}
   m_Center: {x: 4.3655748e-10, y: 0.5999999, z: -3.6670827e-10}
---- !u!1 &2017237050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2017237051}
-  m_Layer: 0
-  m_Name: Pohon cemara (60)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2017237051
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017237050}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.76550335, z: -0, w: -0.643432}
-  m_LocalPosition: {x: 91.2, y: -12.43, z: 48.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -260.096, z: 0}
 --- !u!1 &2017346539
 GameObject:
   m_ObjectHideFlags: 0
@@ -53168,123 +50228,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
   m_PrefabInstance: {fileID: 1710147824}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2027574734
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2027574739}
-  - component: {fileID: 2027574738}
-  - component: {fileID: 2027574737}
-  - component: {fileID: 2027574736}
-  - component: {fileID: 2027574735}
-  m_Layer: 5
-  m_Name: GameOVer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &2027574735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027574734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e59e45bbdbf62394c8cf3ec85e129530, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverPanel: {fileID: 1164881380}
---- !u!114 &2027574736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027574734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &2027574737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027574734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &2027574738
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027574734}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &2027574739
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027574734}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1164881383}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &2027758580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54125,17 +51068,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058819878}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18, y: 2.5, z: 9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 28.9, y: 1, z: 6.86}
+  m_LocalScale: {x: 0.56, y: 0.56, z: 0.56}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 543450652674697801}
   - {fileID: 975705398}
   - {fileID: 1786003706}
   - {fileID: 944037513}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &2058819883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54297,37 +51240,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1962212098}
   m_SourcePrefab: {fileID: 100100000, guid: b4f4eecff9f1b874ebb5ee464575a4e6, type: 3}
---- !u!1 &2061526995
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2061526996}
-  m_Layer: 0
-  m_Name: map rev 9
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2061526996
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2061526995}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -0.3, z: -186.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2061810275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06a093248f53bcb44af7f014915781f1, type: 3}
@@ -59795,37 +56707,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff3828353e1aae14cbec954495331748, type: 3}
---- !u!1 &2119689968
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2119689969}
-  m_Layer: 0
-  m_Name: Pohon cemara (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2119689969
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119689968}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.75933117, z: -0, w: 0.65070444}
-  m_LocalPosition: {x: -45.7, y: -12.43, z: 70.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 359515041}
-  m_LocalEulerAnglesHint: {x: 0, y: -98.811, z: 0}
 --- !u!1001 &2128811473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62195,7 +59076,6 @@ SceneRoots:
   - {fileID: 7689251709449157237}
   - {fileID: 1323616268}
   - {fileID: 718666743}
-  - {fileID: 2027574739}
   - {fileID: 1451991660}
   - {fileID: 1900621070}
   - {fileID: 2058819882}
@@ -62203,8 +59083,6 @@ SceneRoots:
   - {fileID: 1389611846}
   - {fileID: 1688658606}
   - {fileID: 969282262}
-  - {fileID: 2061526996}
-  - {fileID: 359515041}
   - {fileID: 1388788982}
   - {fileID: 1941456004}
   - {fileID: 132986445}
@@ -62218,7 +59096,6 @@ SceneRoots:
   - {fileID: 1324441883}
   - {fileID: 1115095395}
   - {fileID: 1859749587}
-  - {fileID: 528509186}
   - {fileID: 1512569368}
   - {fileID: 1236718869}
   - {fileID: 1010466772}
