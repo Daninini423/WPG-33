@@ -3,27 +3,42 @@ using System.Collections;
 
 public class EnemyHitFeedback : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
+    private Renderer enemyRenderer;
+
     private Color originalColor;
+
     public float flashDuration = 0.1f;
 
-    void Start()
+    private void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null)
-            originalColor = spriteRenderer.color;
+        // Cari renderer di child object
+        enemyRenderer = GetComponentInChildren<Renderer>();
+
+        if (enemyRenderer != null)
+        {
+            originalColor = enemyRenderer.material.color;
+        }
+        else
+        {
+            Debug.LogWarning("Renderer tidak ditemukan!");
+        }
     }
 
     public void TakeHit()
     {
-        if (spriteRenderer != null)
+        if (enemyRenderer != null)
+        {
+            StopAllCoroutines();
             StartCoroutine(FlashRed());
+        }
     }
 
-    private IEnumerator FlashRed()
+    IEnumerator FlashRed()
     {
-        spriteRenderer.color = Color.red;
+        enemyRenderer.material.color = Color.red;
+
         yield return new WaitForSeconds(flashDuration);
-        spriteRenderer.color = originalColor;
+
+        enemyRenderer.material.color = originalColor;
     }
 }

@@ -6,16 +6,24 @@ public class Health : MonoBehaviour
     public int currentHealth;
 
     public System.Action<int, int> OnHealthChanged;
-
+    private EnemyHitFeedback hitFeedback;
     private void Awake()
     {
         currentHealth = maxHealth;
+
+        hitFeedback = GetComponent<EnemyHitFeedback>();
     }
 
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
         currentHealth = Mathf.Max(currentHealth, 0);
+
+        // HIT EFFECT
+        if (hitFeedback != null)
+        {
+            hitFeedback.TakeHit();
+        }
 
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
 
