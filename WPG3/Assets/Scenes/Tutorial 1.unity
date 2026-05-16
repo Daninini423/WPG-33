@@ -1247,7 +1247,6 @@ Transform:
   - {fileID: 479153223}
   - {fileID: 1156263167}
   - {fileID: 1834697059}
-  - {fileID: 1480322344}
   - {fileID: 1807056247}
   - {fileID: 1928254971}
   - {fileID: 161421989}
@@ -3947,7 +3946,7 @@ MonoBehaviour:
   CameraDistance: 2
   CameraCollisionFilter:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   IgnoreTag: 
   CameraRadius: 0.2
   DampingIntoCollision: 0
@@ -4512,63 +4511,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377969565}
   m_CullTransparentMesh: 1
---- !u!1001 &378808523
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 106069243}
-    m_Modifications:
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 16.136509
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.14574
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 15.939434
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003206305143914172, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-      propertyPath: m_Name
-      value: Beton_Pohon_Utama
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
 --- !u!1 &386387636 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: de417d0835cef2b43a7d58521dab0632, type: 3}
@@ -23038,7 +22980,7 @@ Transform:
   m_GameObject: {fileID: 944037511}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6619527, y: 2.1642861, z: -5.2162895}
+  m_LocalPosition: {x: 1.0199995, y: 2.2442858, z: -3.041428}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23474,7 +23416,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 31.821121, y: 2.2120001, z: 7.230694}
+  m_LocalPosition: {x: 30.603199, y: 2.2568, z: 7.4312}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41604,13 +41546,41 @@ MonoBehaviour:
     uiToFront:
     - {fileID: 1113936361}
     - {fileID: 30619941}
-  - tutorialText: Kanan bawah = HP Pohon Agung, lindungi baik-baik
+  - tutorialText: Kamu harus bisa melindungi pohon Agung yang berada ditengah..
     uiToShow: {fileID: 1019774043}
     uiToHide: {fileID: 132986440}
     uiToShow1: {fileID: 619625161}
     uiToHide1: {fileID: 1113936361}
     uiToShow2: {fileID: 0}
     uiToHide2: {fileID: 30619941}
+    uiToShow3: {fileID: 0}
+    uiToHide3: {fileID: 0}
+    characterExpression1: {fileID: 0}
+    characterExpression2: {fileID: 0}
+    hidePanel: 0
+    stepSound: {fileID: 0}
+    uiToFront: []
+  - tutorialText: 
+    uiToShow: {fileID: 2126607943}
+    uiToHide: {fileID: 1019774043}
+    uiToShow1: {fileID: 0}
+    uiToHide1: {fileID: 619625161}
+    uiToShow2: {fileID: 0}
+    uiToHide2: {fileID: 0}
+    uiToShow3: {fileID: 0}
+    uiToHide3: {fileID: 1226480514}
+    characterExpression1: {fileID: 0}
+    characterExpression2: {fileID: 0}
+    hidePanel: 1
+    stepSound: {fileID: 0}
+    uiToFront: []
+  - tutorialText: Kanan bawah = HP Pohon Agung, lindungi baik-baik
+    uiToShow: {fileID: 1019774043}
+    uiToHide: {fileID: 2126607943}
+    uiToShow1: {fileID: 619625161}
+    uiToHide1: {fileID: 0}
+    uiToShow2: {fileID: 1226480514}
+    uiToHide2: {fileID: 0}
     uiToShow3: {fileID: 0}
     uiToHide3: {fileID: 0}
     characterExpression1: {fileID: 0}
@@ -43089,11 +43059,6 @@ CapsuleCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1272050494834717761, guid: 1e025b70be5ed5b438f1c6c4fa2cb88b, type: 3}
   m_PrefabInstance: {fileID: 1465545151}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1480322344 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1590040804088783492, guid: 64794c6fbd7c08344abf60fafb61f2ef, type: 3}
-  m_PrefabInstance: {fileID: 378808523}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1482188448
 PrefabInstance:
@@ -46964,7 +46929,7 @@ Transform:
   m_GameObject: {fileID: 1786003705}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6619525, y: 1.45, z: -1.6448593}
+  m_LocalPosition: {x: 1.02, y: 1.53, z: 0.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -48097,19 +48062,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.987417
+      value: 12.133863
       objectReference: {fileID: 0}
     - target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.09
+      value: 0.48000002
       objectReference: {fileID: 0}
     - target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.4166183
+      value: 7.070527
       objectReference: {fileID: 0}
     - target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9238797
+      value: 0.9998536
       objectReference: {fileID: 0}
     - target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_LocalRotation.x
@@ -48117,7 +48082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.38268322
+      value: 0.01711104
       objectReference: {fileID: 0}
     - target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_LocalRotation.z
@@ -48129,7 +48094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -45
+      value: 1.961
       objectReference: {fileID: 0}
     - target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -56834,7 +56799,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &2126607944
 MeshRenderer:
   m_ObjectHideFlags: 0
