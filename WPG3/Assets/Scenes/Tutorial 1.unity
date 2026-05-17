@@ -40960,7 +40960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialCanvas: {fileID: 1688658605}
   tutorialPanel: {fileID: 1064357091}
-  tutorialText: {fileID: 0}
+  tutorialText: {fileID: 229141869}
   nextButton: {fileID: 0}
   characterImage1: {fileID: 1019774045}
   characterImage2: {fileID: 555692746}
