@@ -544,7 +544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
-  speed: 1.8
+  speed: 1.5
   stopDistance: 0.5
   attackDamage: 3
   attackInterval: 1.5
@@ -716,3 +716,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6df3c525929788488bd9de2a93d1c0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  flashDuration: 0.1

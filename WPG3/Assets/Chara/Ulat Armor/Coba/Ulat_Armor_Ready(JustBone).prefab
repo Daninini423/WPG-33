@@ -286,6 +286,18 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 43796fbd520cb6d4eba4df29c1ba259c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43796fbd520cb6d4eba4df29c1ba259c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43796fbd520cb6d4eba4df29c1ba259c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43796fbd520cb6d4eba4df29c1ba259c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -323,6 +335,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 43796fbd520cb6d4eba4df29c1ba259c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43796fbd520cb6d4eba4df29c1ba259c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8036091458967778821, guid: 43796fbd520cb6d4eba4df29c1ba259c, type: 3}
@@ -515,9 +531,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
-  speed: 2.5
+  speed: 1.3
   stopDistance: 0.5
-  attackDamage: 10
+  attackDamage: 5
   attackInterval: 1.5
   maxSoundDistance: 12
   footstepInterval: 0.5
@@ -533,7 +549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be26d2c3482ba164ab0e462a1f300e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 70
   currentHealth: 100
 --- !u!54 &627118360818704714
 Rigidbody:
