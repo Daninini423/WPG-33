@@ -1,16 +1,18 @@
 using UnityEngine;
+using System.Collections;
+
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Prefab Musuh")]
-    public GameObject enemyPrefab;   // musuh tipe 0
-    public GameObject enemyPrefab1;  // musuh tipe 1
-    public GameObject enemyPrefab2;  // musuh tipe 2
+    public GameObject enemyPrefab;
+    public GameObject enemyPrefab1;
+    public GameObject enemyPrefab2;
 
     [Header("Prefab Boss")]
-    public GameObject bossPrefab;    // boss (muncul setelah semua musuh habis)
+    public GameObject bossPrefab;
 
     [Header("Spawn Points")]
-    public Transform[] spawnPoints;  // index 0-3 (Spawnpoint 1-4)
+    public Transform[] spawnPoints;
 
     [Header("Pengaturan Spawn Enemy 0")]
     public float spawnInterval0 = 0f;
@@ -31,10 +33,18 @@ public class EnemySpawner : MonoBehaviour
     private float timer2 = 0f;
 
     [Header("Pengaturan Boss")]
-    public float bossSpawnDelay = 2f; // delay setelah semua musuh mati
+    public float bossSpawnDelay = 4f;
     private bool bossSpawned = false;
     private bool bossWaiting = false;
-    private float bossTimer = 0f;
+
+    [Header("UI Boss Warning")]
+    public GameObject bossWarningUI;
+    public GameObject redFlashPanel;
+    public float flashSpeed = 0.3f;
+
+    [Header("Audio Pengaturan")]
+    public AudioSource audioSource;      // Slot untuk komponen AudioSource
+    public AudioClip bossWarningSFX;    // Slot untuk file suara (Alarm/Sirine)
 
     private void Start()
     {
@@ -45,11 +55,20 @@ public class EnemySpawner : MonoBehaviour
         timer0 = Random.Range(0.5f, spawnInterval0);
         timer1 = Random.Range(0.5f, spawnInterval1);
         timer2 = Random.Range(0.5f, spawnInterval2);
+
+        if (bossWarningUI != null) bossWarningUI.SetActive(false);
+        if (redFlashPanel != null) redFlashPanel.SetActive(false);
+
+        // Memastikan audio source tidak otomatis bunyi di awal game
+        if (audioSource != null)
+        {
+            audioSource.playOnAwake = false;
+        }
     }
 
     void Update()
     {
-        // Enemy 0
+        // Spawner Enemy 0
         if (spawnedCount0 < maxSpawnCount0)
         {
             timer0 += Time.deltaTime;
@@ -61,7 +80,7 @@ public class EnemySpawner : MonoBehaviour
             }
         }
 
-        // Enemy 1
+        // Spawner Enemy 1
         if (spawnedCount1 < maxSpawnCount1)
         {
             timer1 += Time.deltaTime;
@@ -73,7 +92,7 @@ public class EnemySpawner : MonoBehaviour
             }
         }
 
-        // Enemy 2
+        // Spawner Enemy 2
         if (spawnedCount2 < maxSpawnCount2)
         {
             timer2 += Time.deltaTime;
@@ -86,7 +105,6 @@ public class EnemySpawner : MonoBehaviour
         }
 
         // Cek kondisi spawn boss
-        // Semua musuh sudah di-spawn dan semua musuh sudah mati
         bool semuaMusuhSudahSpawn = GetTotalSpawnedCount() >= GetTotalMaxCount();
         bool semuaMusuhMati = EnemyManager.aliveEnemies <= 0;
 
@@ -95,17 +113,50 @@ public class EnemySpawner : MonoBehaviour
             if (!bossWaiting)
             {
                 bossWaiting = true;
-                bossTimer = 0f;
-                Debug.Log("Semua musuh mati! Boss akan muncul dalam " + bossSpawnDelay + " detik...");
-            }
-
-            bossTimer += Time.deltaTime;
-            if (bossTimer >= bossSpawnDelay)
-            {
-                SpawnBoss();
-                bossSpawned = true;
+                StartCoroutine(BossAppearanceSequence());
             }
         }
+    }
+
+    IEnumerator BossAppearanceSequence()
+    {
+        Debug.Log("Semua musuh mati! Efek Warning & Audio dimulai...");
+
+        // 1. Jalankan Sound Effect (Alarm/Sirine)
+        if (audioSource != null && bossWarningSFX != null)
+        {
+            audioSource.clip = bossWarningSFX;
+            audioSource.loop = true; // Set true agar suara mengulang selama UI berkedip
+            audioSource.Play();
+        }
+
+        // 2. Nyalakan Teks Warning
+        if (bossWarningUI != null) bossWarningUI.SetActive(true);
+
+        // 3. Efek Kedip Layar Merah
+        float elapsed = 0f;
+        while (elapsed < bossSpawnDelay)
+        {
+            if (redFlashPanel != null)
+            {
+                redFlashPanel.SetActive(!redFlashPanel.activeSelf);
+            }
+            yield return new WaitForSeconds(flashSpeed);
+            elapsed += flashSpeed;
+        }
+
+        // 4. Matikan UI Warning & Stop Audio tepat saat Boss muncul
+        if (bossWarningUI != null) bossWarningUI.SetActive(false);
+        if (redFlashPanel != null) redFlashPanel.SetActive(false);
+
+        if (audioSource != null)
+        {
+            audioSource.Stop(); // Hentikan suara alarm
+        }
+
+        // 5. Spawn Boss
+        SpawnBoss();
+        bossSpawned = true;
     }
 
     void SpawnEnemy(GameObject prefabToSpawn)
@@ -118,38 +169,20 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnBoss()
     {
-        // Boss spawn di spawnPoints index 1 dan 2 (Spawnpoint 2 dan 3)
-        // Pilih random antara index 1 atau 2
         if (spawnPoints.Length < 3)
         {
             Debug.LogWarning("Spawnpoint kurang dari 3! Boss tidak bisa spawn di index 1/2.");
             return;
         }
 
-        int bossIndex = Random.Range(1, 3); // random antara index 1 atau 2
+        int bossIndex = Random.Range(1, 3);
         Instantiate(bossPrefab, spawnPoints[bossIndex].position, Quaternion.identity);
         EnemyManager.aliveEnemies++;
         Debug.Log("Boss muncul di Spawnpoint " + (bossIndex + 1));
     }
 
-    public int GetTotalSpawnedCount()
-    {
-        return spawnedCount0 + spawnedCount1 + spawnedCount2;
-    }
-
-    public int GetTotalMaxCount()
-    {
-        return maxSpawnCount0 + maxSpawnCount1 + maxSpawnCount2;
-    }
-
-    // Cek apakah boss sudah mati (untuk NextChapterUI)
-    public bool IsBossDead()
-    {
-        return bossSpawned && EnemyManager.aliveEnemies <= 0;
-    }
-
-    public bool HasBoss()
-    {
-        return bossPrefab != null;
-    }
+    public int GetTotalSpawnedCount() { return spawnedCount0 + spawnedCount1 + spawnedCount2; }
+    public int GetTotalMaxCount() { return maxSpawnCount0 + maxSpawnCount1 + maxSpawnCount2; }
+    public bool IsBossDead() { return bossSpawned && EnemyManager.aliveEnemies <= 0; }
+    public bool HasBoss() { return bossPrefab != null; }
 }
