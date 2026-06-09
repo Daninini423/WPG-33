@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 6752558843361741922}
   - component: {fileID: 4090638884299867894}
   - component: {fileID: 2258353147396389919}
-  m_Layer: 0
+  - component: {fileID: -7881896815126136675}
+  - component: {fileID: 6257447149575346046}
+  - component: {fileID: -253392991745348341}
+  m_Layer: 8
   m_Name: HeadVFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3745110392011380247}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.004}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -93,6 +96,69 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-7881896815126136675
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3745110392011380247}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &6257447149575346046
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3745110392011380247}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!114 &-253392991745348341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3745110392011380247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9eecc9c6047dfa4e98e30ec7ead6d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bullet
+  timeToDestroy: 2
+  damage: 10
+  hitPrefab: {fileID: 8250070606637824774, guid: 411f5d2aaf45308448a34961b17199b9, type: 3}
 --- !u!1 &5501163773236114875
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,7 +170,7 @@ GameObject:
   - component: {fileID: 6795354462426135709}
   - component: {fileID: 6170951307297525333}
   - component: {fileID: 7679481962592820224}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PercikanAir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4939,7 +5005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7621607360653121290}
   - component: {fileID: 4861405877418592631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trails(1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5090,7 +5156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3921602527124140957}
   - component: {fileID: 8269504824639882559}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trails
   m_TagString: Untagged
   m_Icon: {fileID: 0}
