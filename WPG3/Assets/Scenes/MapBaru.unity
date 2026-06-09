@@ -43954,6 +43954,11 @@ MonoBehaviour:
   spawnInterval2: 0
   maxSpawnCount2: 0
   bossSpawnDelay: 2
+  bossWarningUI: {fileID: 0}
+  redFlashPanel: {fileID: 0}
+  flashSpeed: 0.3
+  audioSource: {fileID: 0}
+  bossWarningSFX: {fileID: 0}
 --- !u!4 &1262378309
 Transform:
   m_ObjectHideFlags: 0
