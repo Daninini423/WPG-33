@@ -43947,8 +43947,8 @@ MonoBehaviour:
   - {fileID: 774735075}
   - {fileID: 707063685}
   - {fileID: 2005427549}
-  spawnInterval0: 5
-  maxSpawnCount0: 2
+  spawnInterval0: 4
+  maxSpawnCount0: 10
   spawnInterval1: 0
   maxSpawnCount1: 0
   spawnInterval2: 0
@@ -49449,7 +49449,7 @@ MonoBehaviour:
   bulletVelocity: 150
   bulletsPerShot: 1
   muzzlePrefab: {fileID: 9117872793963146754, guid: a634b66f203ef7d4c8fd634b38b66e10, type: 3}
-  gunShot: {fileID: 8300000, guid: 6d4a0eaaa3499b145b99c9cc1a4e3cd7, type: 3}
+  gunShot: {fileID: 8300000, guid: b3124a24234b7164ab65b1acfac34701, type: 3}
 --- !u!114 &1603806961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63667,11 +63667,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1568877889845687990, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_Size.x
-      value: 3.4630318
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1568877889845687990, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_Size.z
-      value: 3.4025042
+      value: 2.61
       objectReference: {fileID: 0}
     - target: {fileID: 1568877889845687990, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_Center.x
