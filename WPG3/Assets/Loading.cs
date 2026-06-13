@@ -16,17 +16,27 @@ public class Loading : MonoBehaviour
     [SerializeField] private SceneAsset targetScene;
 #endif
 
-    private string targetSceneName;
+    // 1. Tambahkan SerializeField agar nama string ini ikut tersimpan ke dalam Build WebGL
+    [SerializeField, HideInInspector] private string targetSceneName;
 
-    private void Start()
-    {
+    // 2. Gunakan OnValidate untuk mengambil nama scene secara otomatis saat kamu memasukkan scene di Inspector (sebelum di-build)
 #if UNITY_EDITOR
+    private void OnValidate()
+    {
         if (targetScene != null)
         {
             targetSceneName = targetScene.name;
         }
+        else
+        {
+            targetSceneName = "";
+        }
+    }
 #endif
 
+    private void Start()
+    {
+        // 3. Logika pengambilan nama di Start dihapus karena sudah diurus oleh OnValidate
         StartCoroutine(WaitForTime());
     }
 
@@ -47,7 +57,7 @@ public class Loading : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Target Scene belum diset!");
+            Debug.LogError("Target Scene belum diset! Pastikan Scene sudah dimasukkan di Inspector.");
         }
     }
 }

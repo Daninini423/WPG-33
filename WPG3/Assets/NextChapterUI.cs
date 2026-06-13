@@ -20,19 +20,30 @@ public class NextChapterUI : MonoBehaviour
     [SerializeField] private SceneAsset nextScene;
 #endif
 
-    private string nextSceneName;
+    // 1. Tambahkan [SerializeField, HideInInspector] agar ikut ter-build
+    [SerializeField, HideInInspector] private string nextSceneName;
+
     private bool canGoNext = false;
 
-    private void Start()
-    {
-        nextChapterPanel.SetActive(false);
-
+    // 2. Gunakan OnValidate untuk menyimpan nama scene sebelum di-build
 #if UNITY_EDITOR
+    public void OnValidate()
+    {
         if (nextScene != null)
         {
             nextSceneName = nextScene.name;
         }
+        else
+        {
+            nextSceneName = "";
+        }
+    }
 #endif
+
+    private void Start()
+    {
+        nextChapterPanel.SetActive(false);
+        // Logika pencarian nama scene di Start() dihapus
     }
 
     private void Update()
@@ -109,7 +120,7 @@ public class NextChapterUI : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Next scene belum diset!");
+            Debug.LogError("Next scene belum diset! Pastikan Scene sudah dimasukkan di Inspector.");
         }
     }
 

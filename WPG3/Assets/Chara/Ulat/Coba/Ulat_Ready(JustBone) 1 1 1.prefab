@@ -540,7 +540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7dc65b3f9d43e647bd249f200ce3381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 8861336731431948166, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
+  target: {fileID: 4759866191723851961, guid: 47afb58b24764824e9e4250d2dccf236, type: 3}
   speed: 1.5
   stopDistance: 1
   attackDamage: 3

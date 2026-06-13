@@ -23523,6 +23523,7 @@ MonoBehaviour:
   backgroundMusic: {fileID: 1328323377}
   clickSound: {fileID: 2145687922}
   nextScene: {fileID: 102900000, guid: 4bef2ddcba3415742a5ee24c019d89b7, type: 3}
+  nextSceneName: Menu
 --- !u!114 &642605392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54428,6 +54429,7 @@ MonoBehaviour:
   backgroundMusic: {fileID: 1328323377}
   clickSound: {fileID: 2145687922}
   quitScene: {fileID: 102900000, guid: 4bef2ddcba3415742a5ee24c019d89b7, type: 3}
+  quitSceneName: Menu
 --- !u!224 &1860409525
 RectTransform:
   m_ObjectHideFlags: 0
@@ -64633,19 +64635,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1568877889845687990, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_Size.x
-      value: 3
+      value: 2.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568877889845687990, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
+      propertyPath: m_Size.y
+      value: -0.67
       objectReference: {fileID: 0}
     - target: {fileID: 1568877889845687990, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_Size.z
-      value: 2.61
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 1568877889845687990, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_Center.x
-      value: -0.35667354
+      value: -0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568877889845687990, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
+      propertyPath: m_Center.y
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 1568877889845687990, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: m_Center.z
-      value: -0.006969307
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7335386077093233732, guid: eb7165b6e20246b4392306e2735b6836, type: 3}
       propertyPath: maxHealth

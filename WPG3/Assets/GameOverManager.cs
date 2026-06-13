@@ -1,7 +1,11 @@
 using System.Collections;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+// 1. UnityEditor dibungkus agar HANYA dibaca saat berada di dalam software Unity
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class GameOverManager : MonoBehaviour
 {
@@ -13,11 +17,31 @@ public class GameOverManager : MonoBehaviour
     public AudioSource clickSound;
 
     [Header("Scene")]
+    // 2. SceneAsset juga dibungkus karena ini bagian dari UnityEditor
+#if UNITY_EDITOR
     [SerializeField] private SceneAsset quitScene;
+#endif
 
-    private string quitSceneName;
+    // 3. Tambahkan SerializeField agar nama string ini tersimpan saat di-build
+    [SerializeField, HideInInspector] private string quitSceneName;
 
     private bool isGameOver = false;
+
+    // 4. Pindahkan logika pengambilan nama ke OnValidate. 
+    // Fungsi ini otomatis berjalan di Editor setiap kali kamu memasukkan scene ke slot quitScene.
+#if UNITY_EDITOR
+    private void OnValidate()
+    {
+        if (quitScene != null)
+        {
+            quitSceneName = quitScene.name;
+        }
+        else
+        {
+            quitSceneName = ""; // Kosongkan jika tidak ada scene yang dimasukkan
+        }
+    }
+#endif
 
     private void Start()
     {
@@ -26,12 +50,7 @@ public class GameOverManager : MonoBehaviour
             gameOverPanel.SetActive(false);
         }
 
-#if UNITY_EDITOR
-        if (quitScene != null)
-        {
-            quitSceneName = quitScene.name;
-        }
-#endif
+        // Logika di Start() sebelumnya dihapus karena sudah ditangani oleh OnValidate()
     }
 
     // =========================

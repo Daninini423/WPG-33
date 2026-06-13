@@ -23,6 +23,11 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        // ====================================================================
+        // FITUR PELACAK: Memunculkan nama benda yang ditabrak di panel Console
+        // ====================================================================
+        Debug.Log("<color=yellow>MENGHINDAR!</color> Peluru menabrak: <b>" + collision.gameObject.name + "</b>");
+
         // Cek kalau kena musuh
         if (collision.gameObject.CompareTag("Enemy"))
         {
