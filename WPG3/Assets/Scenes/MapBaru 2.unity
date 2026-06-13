@@ -49464,9 +49464,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireRate: 0.18
   semiAuto: 0
-  bullet: {fileID: 8543034977042659343, guid: 6e514e69a542e404893ddd9ee96f7a10, type: 3}
+  bullet: {fileID: 3745110392011380247, guid: 9306d040e9bdc40488d0239c34c832bd, type: 3}
   barrelPos: {fileID: 1603806957}
-  bulletVelocity: 10000
+  bulletVelocity: 200
   bulletsPerShot: 1
   muzzlePrefab: {fileID: 9117872793963146754, guid: a634b66f203ef7d4c8fd634b38b66e10, type: 3}
   gunShot: {fileID: 8300000, guid: b3124a24234b7164ab65b1acfac34701, type: 3}

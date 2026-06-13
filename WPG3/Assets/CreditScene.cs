@@ -32,6 +32,6 @@ public class CreditScene : MonoBehaviour
     {
         yield return StartCoroutine(PlayButtonSound());
 
-        SceneManager.LoadSceneAsync(6);
+        SceneManager.LoadSceneAsync(9);
     }
 }

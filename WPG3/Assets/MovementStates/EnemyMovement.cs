@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
+
 public class EnemyMovement : MonoBehaviour
 {
     public Transform target;
@@ -58,7 +58,7 @@ public class EnemyMovement : MonoBehaviour
 
             anim.SetTrigger("Attack");
 
-            PlaySoundIfNear("Crounch");
+
         }
     }
 
@@ -72,7 +72,7 @@ public class EnemyMovement : MonoBehaviour
 
             anim.SetTrigger("Attack");
 
-            PlaySoundIfNear("Crounch");
+            
         }
     }
 
